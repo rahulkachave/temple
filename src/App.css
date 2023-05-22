@@ -1,0 +1,305 @@
+.App {
+  text-align: justify;
+  background-color: whitesmoke;
+  .nav-link {
+    text-decoration: none; 
+  }
+}
+.welcome {
+  color: deeppink;
+  text-align: center;
+  border: 1px solid;
+  cursor: pointer;
+}
+.about{
+  background-color: white;
+
+}
+.Location{
+  background-color: aquamarine;
+  
+  
+  }
+.h2headingtag{
+color:rgb(14, 76, 14);
+background-color: rgb(215, 231, 247);
+}
+ .btnnext{
+  background-color: rgb(201, 227, 10);
+  border-color: crimson;
+  padding: 8px;
+  width: 100px;
+ }
+ .btnback{
+  float:right;
+  background-color: rgb(43, 227, 10);
+  border-color: crimson;
+  padding: 8px;
+  width: 100px;
+ }
+.artical{
+   float: left; 
+   padding: 20px; 
+  width:1250px;  
+  background-color: rgb(222, 234, 245);
+}
+.artical2{
+  float: left; 
+   padding: 20px; 
+  width:30%; 
+  background-color: rgb(240, 240, 227);
+}
+.articaldiv{
+  float: left; 
+  padding: 20px; 
+ width:400px;  
+ background-color: rgb(168, 51, 141);
+}
+/* ------------------------------Footer--------------------------- */
+.footer{
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+height: 40PX;
+background-color: rgb(198, 195, 195);
+color: white;
+text-align: center;
+display:flex;
+justify-content: space-around;
+flex-wrap: wrap;
+
+}
+.Homecomp{
+  background-color: rgb(217, 198, 174);
+  border: 1px solid;
+  padding: 30px;
+  width: 300px;
+  font-weight: bold;
+  text-align: start;
+  margin: 20px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.main{
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 10px;
+  background-color: rgb(227, 236, 200);
+
+}
+.aarti{
+  float: left; 
+  padding: 20px; 
+  text-align: center;
+  width:30%; 
+  background-color: rgb(240, 172, 157);
+  color: rgb(5, 6, 4);
+
+}
+.aarti div{
+  background-color: rgb(234, 234, 176);
+  background: linear-gradient(#edcccc 0%, #d6f1d6 50%, #ebcdcd 100%);
+  padding: 10px ;
+}
+.mainTemplet{
+  float: left; 
+   padding: 20px;
+   padding-bottom: 60px;
+   width:55%; 
+  background-color: rgb(241, 238, 234);
+}
+
+/* -------------------------------- */
+.page{
+  height: 70vh;
+  display: flex;
+}
+/* ----------------------------------Aarti left side  */
+.aaratileft{
+  background-color: rgb(242, 240, 237);
+  height: 1000PX;
+  /* padding :10px ; */
+  float: left;
+  width: 272px;
+  text-align: center;
+  justify-content: center;
+}
+.aaratileft .nav-link {
+  /* margin: 10px; */
+  perspective: 400px;
+  transition: transform 0.5s;
+}
+.aaratileft .nav-link:hover {
+  transform: rotateY(20deg);
+}
+.aaratileft .nav-link h4 {
+  font-size: 18px;
+  color: #66c026;
+  transition: transform 0.5s;
+  transition: color 0.3s ease;
+}
+
+.aaratileft .nav-link:hover h4 {
+  transform: rotateY(-20deg);
+  color: rgb(227, 18, 18);
+}
+
+/* ---------------------------------------------------------photos--------------------------------------------------------- */
+.photos{
+
+background-color: rgb(237, 221, 190);
+padding :10px ;
+float: left;
+width: 650px;
+text-align: center;
+padding-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.photo-item {
+  margin: 10px;
+  perspective: 800px;
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+
+.photo-item:hover {
+  transform: rotateY(10deg);
+  
+}
+
+.photo-item img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 25px;
+  transition: transform 0.5s;
+ 
+}
+
+.photo-item:hover img {
+  transform: rotateY(-20deg);
+
+}
+/* -------------------------------------front for main page Aarti */
+.fronts{
+
+  background-color: rgb(237, 221, 190);
+  padding :10px ;
+  float: left;
+  width: 327px;
+  text-align: center;
+  padding-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+/* --------------------------------Location */
+
+.teamjava{
+  background-color: rgb(247, 236, 236);
+  height: 500px;
+  
+  float: left;
+  width: 10%;
+  text-align: center;
+  justify-content: center;
+}
+.teamjava .nav-link {
+ 
+  perspective: 400px;
+  transition: transform 0.5s;
+}
+.teamjava .nav-link:hover {
+  transform: rotateY(20deg);
+}
+.teamjava .nav-link h4 {
+  font-size: 18px;
+  
+ color: red;
+  transition: transform 0.5s;
+  
+  transition: color 0.3s ease;
+}
+
+.teamjava .nav-link:hover h4 {
+  transform: rotateY(-20deg);
+  color: #4ec16f;
+}
+/* ---------------------------------Header----------------- */
+
+.header{
+  text-align: center;
+  background-color: rgb(217, 198, 174);
+  padding: 0.5px;
+  color: rgb(209, 43, 43);
+  color: rgb(224, 77, 156);
+  justify-content: center;
+    border: 1px solid; 
+  }
+  .marquee {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+      animation: marquee 20s linear infinite;
+  }
+   .marquee div {
+    text-align: center;
+    font-size: verdana;
+    display: inline-block;
+    justify-content: center;
+    animation: animates 20s linear infinite;
+    
+  }
+  @keyframes animates{
+    100%{
+      transform: translate(80%,0);
+    }
+  } 
+/* --------------------------- */
+  .p{
+     background-color: rgb(179, 98, 51);
+     padding: 30px;
+     width: 95%;
+     overflow-x: hidden;
+    }
+   
+    .d {
+      perspective: 1000px;
+      cursor: pointer;
+      transition: transform 0.5s;
+      display: flex;
+      width: 300%;
+      padding: 30px;
+      animation: marquee 20s linear infinite;
+    flex-grow: 1;
+    }
+    
+    .p-item:hover {
+      transform: rotateY(10deg);
+    }
+    
+    .p-item img {
+      width: 300px;
+      position: relative;
+      justify-content: center;
+      height: 300px;
+      border-radius: 40px;
+      transition: transform 0.5s;
+      text-align: center;
+    animation: animate 30s linear infinite;
+    }
+    
+    .p-item:hover img {
+      transform: rotateY(-30deg);
+    }
+    @keyframes animate{
+      100%{
+        transform: translate(-900%,0);
+      }
+    } 
