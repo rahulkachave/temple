@@ -1,14 +1,20 @@
 import React from 'react'
-import HomeComponents from './HomeComponents'
-import Student from './Student'
 
+import homes from "../home.json"
 const Home = () => {
+  console.log(homes);
   return (
     <div>
-     <h1>Hello Frinds</h1>
+     <header className='header' >
+          <div className='marquee'>
+            <div>Download the photos</div></div> </header>
+<div>
+
+
+
+</div>
       <div >
-      <HomeComponents />
-      <Student/>
+  
         </div>
     </div>
     

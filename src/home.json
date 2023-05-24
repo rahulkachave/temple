@@ -1,0 +1,57 @@
+
+[
+
+    {
+        "name":"Mayureshwar Temple",
+        "city": "morgaon, pune",
+        "img":"https://images.pexels.com/photos/95684/pexels-photo-95684.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "url":"http://localhost:3000/Morgaon"
+    },
+    {
+        "name":"Siddhivinayak Temple",
+        "city": "siddhatek,Ahmednagar",
+        "img":"",
+        "url":"http://localhost:3000/SIddhivinayak"
+    },
+            {
+            "name":"Ballaleshwar Temple",
+            "city": "Pali,Raygad",
+            "img":"https://images.pexels.com/photos/95684/pexels-photo-95684.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "url":"http://localhost:3000/PaliTemple"
+        },
+        {
+            "name":"Varadavinayak Temple",
+            "city": "Mahad ,Raigad",
+            "img":"Du3.jpg",
+            "url":"http://localhost:3000/Mahad"
+        },
+        {
+            "name":"Chintamani Temple",
+            "photo": "Theur , pune",
+            "img":"Du3.jpg",
+            "url":"http://localhost:3000/Theur"
+        },
+        {
+            "name":"Girigatmaj Temple",
+            "city": "Lenyadri ,pune",
+            "img":"Du3.jpg",
+            "url":"http://localhost:3000/Lenyadri"
+        },
+        {
+            "name": "Vighneshwar Temple",
+            "city": "Ozar pune",
+            "img":"Du3.jpg",
+            "url":"http://localhost:3000/Ozar"
+        },
+        
+            {
+                "name": "Mahaganapati Temple",
+                "city": "Rangangaon Pune",
+                "url":"http://localhost:3000/Ranjangaon",
+                "img":"Du2.jpg"
+            }
+        
+
+    
+
+]
