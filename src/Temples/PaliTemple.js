@@ -20,7 +20,18 @@ const PaliTemple = () => {
 <Link className="nav-link" to ={'/Theur'}><h4>Eight Ashtavinayak :- Theur</h4></Link>
 <Link className="nav-link"  to ={'/Ashtavinayak'}><h4> Ashtavinayak page </h4></Link>
     </div>
-  
+    <div className='ifrm'>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.797444521813!2d73.2194061759856!3d18.538053368638455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be81145e4ad2e8f%3A0x1575ecac1b23ac27!2sPali%20ballaleshwar%20ganapati!5e0!3m2!1sen!2sin!4v1685013964299!5m2!1sen!2sin" 
+      width="250"
+      height="400"
+       style={{ border: '0' }}
+       allowfullscreen=""
+       loading="lazy"
+       referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+<p>Location </p>
+<p>near to mahad templ:- 20km</p>
+</div>
    
     <article className='Temple'> 
     <div className='Templediv'>

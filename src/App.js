@@ -29,36 +29,47 @@ import Aarati2 from './Aarti/Aarati2';
 import MHTemples from './components/MHTemples';
 import Ashtavinayak from './components/Ashtavinayak';
 import Ram from './Godsfolder/Ram';
+import { useState } from 'react';
 function App() {
- 
+  const [userPreference, setUserPreference] = useState('dark'); // Assuming 'dark' is the default preference
+
+  const handlePreferenceChange = (event) => {
+    setUserPreference(event.target.value);
+  };
   return (
     <div>
     <Router>
-    <div className="App">
+    <div className={`App ${userPreference}`}>
+      <label>
+        <input
+          type="radio"value="dark"checked={userPreference === 'dark'}onChange={handlePreferenceChange}  />  Dark 
+      </label>
+      <label>
+        <input
+          type="radio" value="light"  checked={userPreference === 'light'}  onChange={handlePreferenceChange} /> Light
+      </label>
      <div className='welcome'> Wel-COME</div>
      
     <Main/>
    
            <Routes>
-            <Route path='/'>
-          <Route path="/app" element={<Home />}/>
-            <Route index element={Home}></Route>
-           
-          </Route>
-        
+           <Route path="/">
+          <Route  path="/Home" element={<Home />}/>
+            {/* <Route index element={<Home/>}/> */}
+            </Route>
           <Route path="/Temple" element={<Temple/>}/>
-         <Route path='MHTemples' element={<MHTemples/>}></Route>
+         <Route path='MHTemples' element={<MHTemples/>}/>
          <Route index element={<MHTemples />}/>
-         <Route path='Ashtavinayak' element={<Ashtavinayak/>}></Route>
-         <Route path='Dagadusheth' element={<Dagadusheth/>}></Route>
-         <Route path='SIddhivinayak'element={<SIddhivinayak/>}></Route>
-         <Route path='PaliTemple'element={<PaliTemple/>}></Route>
-         <Route path='Mahad'element={<Mahad/>}></Route>
-         <Route path='Ozar'element={<Ozar/>}></Route>
-         <Route path='Ranjangaon'element={<Ranjangaon/>}></Route>
-         <Route path='Lenyadri'element={<Lenyadri/>}></Route>
-         <Route path='Theur'element={<Theur/>}></Route>
-        <Route path='Morgaon'element ={<Morgaon/>}></Route>
+         <Route path='Ashtavinayak' element={<Ashtavinayak/>}/>
+         <Route path='Dagadusheth' element={<Dagadusheth/>}/>
+         <Route path='SIddhivinayak'element={<SIddhivinayak/>}/>
+         <Route path='PaliTemple'element={<PaliTemple/>}/>
+         <Route path='Mahad'element={<Mahad/>}/>
+         <Route path='Ozar'element={<Ozar/>}/>
+         <Route path='Ranjangaon'element={<Ranjangaon/>}/>
+         <Route path='Lenyadri'element={<Lenyadri/>}/>
+         <Route path='Theur'element={<Theur/>}/>
+        <Route path='Morgaon'element ={<Morgaon/>}/>
 {/* ------------------------------------------------------------------------------- */}
            <Route path='/Gods' element={<Gods/>}/>
            <Route path ='Ram' element={<Ram/>}/>

@@ -4,7 +4,18 @@
   .nav-link {
     text-decoration: none; 
   }
+}.App.dark {
+  /* Styles for dark mode */
+  background-color: #000;
+  color: #70706c;
 }
+
+.App.light {
+  /* Styles for light mode */
+  background-color: #fff;
+  color: #000;
+}
+
 .welcome {
   color: deeppink;
   text-align: center;
@@ -17,8 +28,11 @@
 }
 .Location{
   background-color: aquamarine;
-  
-  
+  }
+  .Location div{
+    width :60%;
+    height: 70%;
+    float: right;
   }
 .h2headingtag{
 color:rgb(14, 76, 14);
@@ -98,7 +112,7 @@ flex-wrap: wrap;
    padding: 20px;
    padding-bottom: 60px;
    width:55%; 
-  background-color: rgb(241, 238, 234);
+  /* background-color: rgb(241, 238, 234); */
 }
 
 /* -------------------------------- */
@@ -335,19 +349,25 @@ padding-bottom: 20px;
 /* ----------------------------------------**---Ashatavinayak css---------------------- */
 .Temple{
   text-align: center;
-  padding-left: 400px;
-padding-right: 400px;
+  padding-left: 355px;
+padding-right: 450px;
 padding-bottom: 50px;
+
 }
 .Templediv{
 background-color: #f7f8f6;
 }
+.Templediv img{
+  height: 400px;
+  width:400px;
+  padding-top: 30px;
+}
 .astvinayaklink{
   background-color: rgb(247, 236, 236);
-  height: 600px;
+  height: 100%;
   padding-left: 20px;
   float: left;
-  width: 25%;
+  width: 22%;
   /* text-align: center; */
   justify-content: center;
 }
@@ -372,4 +392,24 @@ background-color: #f7f8f6;
 .astvinayaklink .nav-link:hover h4 {
   transform: rotateY(-20deg);
   color: #4ec16f;
+}
+/* --------------------------Ashtavinay location s */
+.ifrm{
+  background-color: rgb(37, 37, 37);
+ 
+  float: right;
+  width: 250px;
+  length:300px;
+  padding-right: 100px;
+  text-align: center;
+align-items: center;
+   border: 1px solid;
+}
+.ifrm iframe {
+  padding-left: 30px;
+ padding-top: 10px;
+}
+.ifrm p {
+  background-color: rgb(243, 195, 214);
+  padding-left: 30px;
 }

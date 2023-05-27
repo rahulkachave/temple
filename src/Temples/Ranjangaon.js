@@ -20,7 +20,18 @@ const Ranjangaon = () => {
 <Link className="nav-link" to ={'/Theur'}><h4>Eight Ashtavinayak :- Theur</h4></Link>
 <Link className="nav-link"  to ={'/Ashtavinayak'}><h4> Ashtavinayak page </h4></Link>
     </div>
-  
+    <div className='ifrm'>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30223.442852079806!2d74.23371782634048!3d18.756647585390553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc329b1b121b91d%3A0x3acc4c303bc3165e!2sRanjangaon%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1685018305863!5m2!1sen!2sin" 
+      width="250"
+      height="400"
+       style={{ border: '0' }}
+       allowfullscreen=""
+       loading="lazy"
+       referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+<p>Location </p>
+<p>near to mahad templ:- 20km</p>
+</div>
    
     <article className='Temple'> 
     <div className='Templediv'>

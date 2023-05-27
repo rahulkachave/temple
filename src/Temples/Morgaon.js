@@ -20,7 +20,18 @@ const Morgaon = () => {
 <Link className="nav-link" to ={'/Theur'}><h4>Eight Ashtavinayak :- Theur</h4></Link>
 <Link className="nav-link"  to ={'/Ashtavinayak'}><h4> Ashtavinayak page </h4></Link>
     </div>
-  
+    <div className='ifrm'>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3788.513373856242!2d74.31488657598179!3d18.27811637653382!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc304772a0ecde5%3A0x1fadcf2fad6bf00d!2sShri%20Mayureshwar%20Ganapati%20Temple%2C%20Morgaon!5e0!3m2!1sen!2sin!4v1685010497892!5m2!1sen!2sin" 
+      width="250"
+      height="400"
+       style={{ border: '0' }}
+       allowfullscreen=""
+       loading="lazy"
+       referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+<p>Location </p>
+<p>near to mahad templ:- 20km</p>
+</div>
    
     <article className='Temple'> 
     <div className='Templediv'>
@@ -34,10 +45,11 @@ const Morgaon = () => {
        
         <p>Ashtavinayak temples  is the most important shrine among the Ashtavinayaka temples and has four entrances. At each entrance there is a picture of an avatar of Lord Ganesha from each area.This temple faces north and has a fifty feet high rampart. </p>
        <p>    There are two Deepmalas in the temple premises.As soon as one enters the temple, one sees a six feet tall stone rat and a large seated Nandi. Nandi faces Ganpati and this is the only shrine that has Nandi in front of Ganpati. Rats and Nandi are like guardians of the temple. The trunk of Swayambhu Ganesha in this temple is turned to the left and the navel and eyes of Ganesha are studded with diamonds. The idol has a protective umbrella of a snake. The temple also has idols of Riddhi (Intellect) and Siddhi (Ability).    </p>
-           </div>     
-    </article>
 
-   
+       </div>     
+    </article>  
+
+  
     </div>    
   
 

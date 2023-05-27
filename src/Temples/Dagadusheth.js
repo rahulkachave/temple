@@ -4,6 +4,7 @@ import MHTemples from '../components/MHTemples'
 import { Link } from 'react-router-dom'
 
 
+
 const Dagadusheth = () => {
   
   return (
@@ -20,8 +21,9 @@ const Dagadusheth = () => {
     <div className='Location' >
         <h2>Location</h2>
         <h3><b>District:-</b> Pune </h3>
-        <h3><b>State:-</b>Maharashtra</h3>
+        <h3><b>State:-</b>Maharashtra</h3>     
     </div>
+
     <article className='artical2'>
         <h2 className='h2headingtag'> Dagadusheth halwai ganapati pune</h2>
         <p>Srimanta Dagdusheth Halwai is considered to be the holy place of Lord Ganesha for devotees all over Pune.</p>
@@ -37,8 +39,21 @@ As Dagdusheth Halwai was a respected personality in the society, the British gov
    <p></p>
    
     </article>
+
     <div>
-        {/* <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Dagdusheth_temple.JPG/440px-Dagdusheth_temple.JPG   " alt="Cinque Terre" width="1000" height="300"></img> */}
+     
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5350.347137720344!2d73.85327703270343!3d18.51684434442155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c06fa5b442ff%3A0x9df365f5b648bce1!2sShreemant%20Dagdusheth%20Halwai%20Ganpati%20Mandir!5e0!3m2!1sen!2sin!4v1685009666307!5m2!1sen!2sin"
+        width="600"
+        height="450"
+        style={{ border: '0' }}
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+ 
+
+       
+       
         </div>
         </div>
     </div>

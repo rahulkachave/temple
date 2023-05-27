@@ -34,7 +34,7 @@ const Temple = () => {
 
 </article>
 
-    <img src="https://www.sathyamonline.com/wp-content/uploads/2021/11/maharashtra-map.png" alt="Cinque Terre" width="1000" height="300"></img>
+    <img src="https://www.sathyamonline.com/wp-content/uploads/2021/11/maharashtra-map.png" alt="Cinque Terre" width="500" height="600"></img>
 
  </div>
   )

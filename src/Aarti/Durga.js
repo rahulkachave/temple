@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-
+import { useState } from 'react'
 import D1 from './/../staic/Du1.jpg'
 import D2 from './/../staic/Du2.jpg'
 import D3 from './/../staic/Du3.jpg'
@@ -11,7 +11,23 @@ import D7  from './/../staic/Du7.webp'
 import D8 from './/../staic/Du8.png'
 import D9  from './/../staic/Du9.jpg'
 import D10  from './/../staic/Du10.webp'
+import audioFile from '../staic/ga1.mp3';
+
+
 const Durga = () => {
+
+  const [isPlaying, setIsPlaying] = useState(false);
+
+  const toggleAudio = () => {
+    const audioElement = document.getElementById('audio');
+    setIsPlaying(!isPlaying);
+
+    if (isPlaying) {
+      audioElement.pause();
+    } else {
+      audioElement.play();
+    }
+  };
   return (
     <div>
            <header className='header'><div className='marquee'><div> श्री दुर्गे  आर‍‍ती ( Durga Aarti)</div></div></header>
@@ -48,6 +64,19 @@ const Durga = () => {
 <p> क्लेशांपासूनी सोडवी तोडी भवपाशा।       </p>
 <p>अंबे तुजवाचून कोण पुरवील आशा।        </p>
 <p> नरहरी तल्लीन झाला पदपंकजलेशा॥३॥       </p>
+
+<div>
+
+<div>
+
+        <button onClick={toggleAudio}>{isPlaying ? 'Pause' : 'Play'}</button>
+        <audio id="audio">
+          <source src={audioFile} type="audio/mpeg" />
+        </audio>
+    
+      </div>
+
+</div>
 </div>
 </article>
 <div>
