@@ -8,7 +8,7 @@ const Temple = () => {
     <div className='marquee'>
       <div> Indian Temples & History</div></div> </header>
            
-           <div className='teamjava' >
+           <div className='astvinayaklink' >
            <Link  className="nav-link" to={'/MHTemples'}><h4>Maharashtra Temples</h4></Link>
 {/* <Link to={'/Dagadusheth'}><h2>Dagadusheth</h2></Link>
 <Link to={'/SIddhivinayak'}><h2>SIddhivinayak</h2></Link>
@@ -23,8 +23,8 @@ const Temple = () => {
 
 </div>
    
-    <article >
-        <p>  the India is rich in history and home to several ancient and historically significant temples. Here are some temples in Maharashtra with a brief overview of their history:
+    <article className='mainTemplet'>
+        <p>  the <b>India </b>is rich in history and home to several ancient and historically significant temples. Here are some temples in Maharashtra with a brief overview of their history:
 
 </p>
 <p><b>Balaji Temple:</b> Located in the town of Shirdi, the Shirdi Sai Baba Temple is one of the most famous and revered temples in Maharashtra. It is dedicated to the 19th-century saint, Sai Baba. The temple was built in 1922, and Sai Baba spent a significant part of his life in Shirdi, performing miracles and teaching spiritual wisdom.</p>
@@ -34,7 +34,7 @@ const Temple = () => {
 
 </article>
 
-    <img src="https://www.sathyamonline.com/wp-content/uploads/2021/11/maharashtra-map.png" alt="Cinque Terre" width="500" height="600"></img>
+    {/* <img src="https://www.sathyamonline.com/wp-content/uploads/2021/11/maharashtra-map.png" alt="Cinque Terre" width="500" height="600"></img> */}
 
  </div>
   )

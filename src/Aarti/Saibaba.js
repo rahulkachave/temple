@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import bells from './/../staic/bells.gif'
 const Saibaba = () => {
   return (
     <div>
@@ -17,8 +18,9 @@ const Saibaba = () => {
 
 
       <article className='aarti'>
-      <h4 h2 className='h2headingtag'>* साईबाबा आरती (Saibaba Aarti )*</h4>
-
+       
+      <h4 h2 className='Aartiheader'>< img className='leftbell' src={bells} alt="Durga"/> साईबाबा आरती (Saibaba Aarti )< img className='rightbell' src={bells} alt="Durga"/></h4>
+ 
 <p>  </p>
 <p> </p>
 <p>   </p>

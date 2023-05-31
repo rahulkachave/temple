@@ -18,7 +18,7 @@ const MHTemples = () => {
           <div className='marquee'>
             <div>MAharastara temples</div></div> </header>
           
-           <div className='teamjava'>
+           <div className='astvinayaklink'>
          
 
 <Link className="nav-link"  to ={'/Ashtavinayak'}><h4>Ashtavinayak Ganapati </h4></Link>

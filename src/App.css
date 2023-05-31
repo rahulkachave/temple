@@ -15,6 +15,34 @@
   background-color: #fff;
   color: #000;
 }
+.toggle-button {
+  display: inline-block;
+  padding: 6px 8px;
+  border: none;
+  border-radius: 20px;
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.toggle-button.dark {
+  background-color: #333;
+  color: #fff;
+}
+
+.toggle-button.light {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.toggle-button:hover {
+  background-color: #777;
+  color: #fff;
+}
+
+
 
 .welcome {
   color: deeppink;
@@ -37,7 +65,9 @@
 .h2headingtag{
 color:rgb(14, 76, 14);
 background-color: rgb(215, 231, 247);
+text-align: center;
 }
+
  .btnnext{
   background-color: rgb(201, 227, 10);
   border-color: crimson;
@@ -126,7 +156,7 @@ flex-wrap: wrap;
   height: 1000PX;
   /* padding :10px ; */
   float: left;
-  width: 272px;
+  width:20%;
   text-align: center;
   justify-content: center;
 }
@@ -156,7 +186,7 @@ flex-wrap: wrap;
 background-color: rgb(237, 221, 190);
 padding :10px ;
 float: left;
-width: 691px;
+width: 45.5%;
 text-align: center;
 padding-bottom: 50px;
   display: flex;
@@ -190,20 +220,7 @@ padding-bottom: 50px;
   transform: rotateY(-20deg);
 
 }
-/* -------------------------------------front for main page Aarti */
-.fronts{
 
-  background-color: rgb(237, 221, 190);
-  padding :10px ;
-  float: left;
-  width: 327px;
-  text-align: center;
-  padding-bottom: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
 /* --------------------------------Location */
 
 .teamjava{
@@ -348,24 +365,31 @@ padding-bottom: 20px;
 }
 /* ----------------------------------------**---Ashatavinayak css---------------------- */
 .Temple{
-  text-align: center;
-  padding-left: 355px;
-padding-right: 450px;
-padding-bottom: 50px;
+  /* text-align: center; */
+  padding-left: 23.50%;
+padding-right: 25%;
+padding-bottom: 20%;
+padding-top: 2%;
 
 }
-.Templediv{
-background-color: #f7f8f6;
+
+.Templeimg{
+ text-align: center;
+
 }
-.Templediv img{
-  height: 400px;
-  width:400px;
-  padding-top: 30px;
+.Templeimg img{
+  
+  height: 80%;
+  width: 80%;
+  border-radius: 20px;
+ 
 }
 .astvinayaklink{
-  background-color: rgb(247, 236, 236);
-  height: 100%;
+  background-color: rgb(243, 247, 236);
+   height: 500px;
   padding-left: 20px;
+  padding-right:20px;
+  
   float: left;
   width: 22%;
   /* text-align: center; */
@@ -380,8 +404,10 @@ background-color: #f7f8f6;
   transform: rotateY(20deg);
 }
 .astvinayaklink .nav-link h4 {
+  border-radius: 30px;
+  text-align: center;
   font-size: 18px;
-  background-color: rgb(243, 225, 192);
+  background-color: rgb(238, 226, 203);
   
  color: rgb(43, 41, 41);
   transition: transform 0.5s;
@@ -395,21 +421,32 @@ background-color: #f7f8f6;
 }
 /* --------------------------Ashtavinay location s */
 .ifrm{
-  background-color: rgb(37, 37, 37);
- 
+  background-color: rgb(249, 252, 253);
   float: right;
-  width: 250px;
-  length:300px;
+  width: 15%;
+  length:900px;
   padding-right: 100px;
-  text-align: center;
-align-items: center;
-   border: 1px solid;
+  
+   
 }
 .ifrm iframe {
-  padding-left: 30px;
- padding-top: 10px;
+  
+ padding-top: 100%;
+ width:130% ;
 }
-.ifrm p {
-  background-color: rgb(243, 195, 214);
-  padding-left: 30px;
+.locdetils {
+  background-color: rgb(242, 248, 247);
+  width:130% ;
+}
+.Aartiheader{
+  color:rgb(208, 34, 48);
+background-color: white;
+
+text-align: center;
+}
+.Aartiheader img{
+  width: 4vh;
+}
+.leftbell{
+ margin-left: 10px;
 }

@@ -31,24 +31,21 @@ import Ashtavinayak from './components/Ashtavinayak';
 import Ram from './Godsfolder/Ram';
 import { useState } from 'react';
 function App() {
-  const [userPreference, setUserPreference] = useState('dark'); // Assuming 'dark' is the default preference
+  const [userPreference, setUserPreference] = useState('light'); // Assuming 'dark' is the default preference
 
-  const handlePreferenceChange = (event) => {
-    setUserPreference(event.target.value);
+  const handleToggle = () => {
+    setUserPreference((prevState)=>(prevState === 'dark'? 'light':'dark'));
   };
   return (
     <div>
     <Router>
+    <div className='welcome'> Wel-COME</div>
     <div className={`App ${userPreference}`}>
-      <label>
-        <input
-          type="radio"value="dark"checked={userPreference === 'dark'}onChange={handlePreferenceChange}  />  Dark 
-      </label>
-      <label>
-        <input
-          type="radio" value="light"  checked={userPreference === 'light'}  onChange={handlePreferenceChange} /> Light
-      </label>
-     <div className='welcome'> Wel-COME</div>
+    <button onClick={handleToggle} className={`toggle-button ${userPreference}`}>
+      {userPreference === 'dark'? 'dark':'light'}Color </button>
+
+
+     
      
     <Main/>
    

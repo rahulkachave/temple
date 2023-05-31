@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-
+import bells from './/../staic/bells.gif'
 const MahaLaxmi = () => {
   return (
     <div>
@@ -18,7 +18,7 @@ const MahaLaxmi = () => {
 
 
       <article className='aarti'>
-      <h4 h2 className='h2headingtag'>* श्री महालक्ष्मीची आरती (Mahalaxmi Aarti )*</h4>
+      <h4 h2 className='Aartiheader'>< img className='leftbell' src={bells} alt="Durga"/> श्री महालक्ष्मीची आरती (Mahalaxmi Aarti )< img className='rightbell' src={bells} alt="Durga"/></h4>
 
 <p>  </p>
 <p> </p>

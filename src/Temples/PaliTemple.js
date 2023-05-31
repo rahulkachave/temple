@@ -7,7 +7,7 @@ const PaliTemple = () => {
     <div>   
     <header className='header' >
           <div className='marquee'>
-            <div>Ashtavinayak temples :- Ballaleshawar- Pali</div></div> </header>
+            <div><b>Ashtavinayak temples :-</b> Ballaleshawar- Pali</div></div> </header>
             <div className='astvinayaklink'>
 <Link className="nav-link"  to ={'/Details'}><h4>Arati Book</h4></Link>
 <Link className="nav-link" to={'/Morgaon'}><h4>First Ashtavinayak :- Moreshawar</h4></Link>
@@ -22,20 +22,22 @@ const PaliTemple = () => {
     </div>
     <div className='ifrm'>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.797444521813!2d73.2194061759856!3d18.538053368638455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be81145e4ad2e8f%3A0x1575ecac1b23ac27!2sPali%20ballaleshwar%20ganapati!5e0!3m2!1sen!2sin!4v1685013964299!5m2!1sen!2sin" 
-      width="250"
-      height="400"
+      // width="250"
+      // height="400"
        style={{ border: '0' }}
        allowfullscreen=""
        loading="lazy"
        referrerpolicy="no-referrer-when-downgrade">
 </iframe>
-<p>Location </p>
-<p>near to mahad templ:- 20km</p>
+<div className='locdetils'>
+<p>Location:- ganapati pule</p>
+<p><b>Darshan Timming :-</b>5am - 10:30pm</p>
+<p><b>near to good place:-</b><br/>Raigad Ford 45km,<br/>Diveagar Beach 60km ,<br/>mahabaleshwar 100km </p></div>
 </div>
    
     <article className='Temple'> 
-    <div className='Templediv'>
-    <div > < img src={ganesha2} alt="Ganesha 2"/></div>
+    
+    <div className='Templeimg'> < img src={ganesha2} alt="Ganesha 2"/></div>
       
         <h2 className='h2headingtag'>Pali Temple </h2>
         <p>The Sri Mayureshwar Temple of Morgaon is one of the eight major temples of Ashtavinayaka. It is said that the name Morgaon is also the story of the peacock</p>
@@ -45,7 +47,7 @@ const PaliTemple = () => {
        
         <p>Ashtavinayak temples  is the most important shrine among the Ashtavinayaka temples and has four entrances. At each entrance there is a picture of an avatar of Lord Ganesha from each area.This temple faces north and has a fifty feet high rampart. </p>
        <p>    There are two Deepmalas in the temple premises.As soon as one enters the temple, one sees a six feet tall stone rat and a large seated Nandi. Nandi faces Ganpati and this is the only shrine that has Nandi in front of Ganpati. Rats and Nandi are like guardians of the temple. The trunk of Swayambhu Ganesha in this temple is turned to the left and the navel and eyes of Ganesha are studded with diamonds. The idol has a protective umbrella of a snake. The temple also has idols of Riddhi (Intellect) and Siddhi (Ability).    </p>
-           </div>     
+                
     </article>
 
    

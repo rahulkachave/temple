@@ -7,7 +7,7 @@ import ganesha4 from './/../staic/ganesha4.jpg'
 import ganesha5 from './/../staic/ganesha5.jpg'
 import ganesha6 from './/../staic/ganesha6.jpg'
 import ganesha7 from './/../staic/ganesha7.jpg'
-
+import bells from './/../staic/bells.gif'
 const Ganapati = () => {
   return (
     <div>
@@ -26,7 +26,7 @@ const Ganapati = () => {
 
     </div>
     <article className='aarti'>
-      <h4 h2 className='h2headingtag'>* श्री गणप‍‍तीची आर‍‍ती (Ganpati Aarti )*</h4>
+      <h4 h2 className='Aartiheader'>< img className='leftbell' src={bells} alt="Durga"/> श्री गणप‍‍तीची आर‍‍ती (Ganpati Aarti )< img className='rightbell' src={bells} alt="Durga"/></h4>
       <div>
       <p>सुखकर्ता दुखहर्ता वार्ता विघ्नाची |</p>
       <p>नुरवी पूर्वी प्रेम कृपा जयाची</p>

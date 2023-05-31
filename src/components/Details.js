@@ -10,7 +10,7 @@ const Details = () => {
     <div>
       <header className='header'><div className='marquee'><div> Maharashtriya- Aarati's</div></div></header>
 
-      <div className='aaratileft'>
+      <div className='astvinayaklink'>
       {/* <Link className="nav-link"  to ={'/Details'}><h4>Aarti Templet</h4></Link> */}
       <Link className="nav-link" to ={'/MHTemples'}><h4>MhTemple</h4></Link>
       <Link  className="nav-link" to ={'/Ganapati'}><h4>Ganapati</h4></Link>
@@ -20,7 +20,9 @@ const Details = () => {
       <Link className="nav-link" to ={'/Saibaba'}><h4>Saibaba</h4></Link>
 
       </div>
-      <article className='mainTemplet'>
+
+  
+      <article className='Temple'>
         <h4  className='h2headingtag'>* WHy Aarti is important in hindu religion*</h4>
         
         <p> Aarti plays a vital role in Hinduism as a means of expressing devotion, seeking divine blessings, and fostering a deep spiritual connection with the deities. It is a beautiful and sacred practice that holds great significance for Hindu devotees.</p>
@@ -47,12 +49,7 @@ const Details = () => {
            other deities as well such as Om Jai Shiv omkara, Om Jai Lakshmi mata, Om Jai Ambe gauri, Om Jai Adya Shakti, Om Jai Saraswati Mata, Om Jai Gange Mata, Om Jai Tulsi Mata and Om Jai Surya Bhagvaan. In Ganesha worship, the aarti Sukhakarta Dukhaharta is popular. </p>
          
       </article>
-      <div>
-    <div className='fronts'>
-    {/* <div className="front-item"> < img src={A1} alt="Aarti"/></div> */}
-    <div className="front-item"> < img src={A2} alt="Aarti 2"/></div>
-  
-    </div></div>
+     
     </div>
   )
 }

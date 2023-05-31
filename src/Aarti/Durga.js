@@ -11,6 +11,7 @@ import D7  from './/../staic/Du7.webp'
 import D8 from './/../staic/Du8.png'
 import D9  from './/../staic/Du9.jpg'
 import D10  from './/../staic/Du10.webp'
+import bells from './/../staic/bells.gif'
 import audioFile from '../staic/ga1.mp3';
 
 
@@ -30,7 +31,7 @@ const Durga = () => {
   };
   return (
     <div>
-           <header className='header'><div className='marquee'><div> श्री दुर्गे  आर‍‍ती ( Durga Aarti)</div></div></header>
+           <header className='header'><div className='marquee'><div>  श्री दुर्गे  आर‍‍ती ( Durga Aarti)</div></div></header>
 
 <div className='aaratileft'>
 <Link className="nav-link" to ={'/MHTemples'}><h4>Maharastra Temple</h4></Link>
@@ -43,7 +44,7 @@ const Durga = () => {
 </div>
 
       <article className='aarti'>
-      <h4 h2 className='h2headingtag'>* दुर्गे आरती ( Durga Aarti)*</h4>
+      <h4 className='Aartiheader'> < img className='leftbell' src={bells} alt="Durga"/>* दुर्गे आरती ( Durga Aarti)*< img className='rightbell' src={bells} alt="Durga"/></h4>
 
   <div>
 <p> दुर्गे दुर्घट भारी तुजविण संसारी। </p>

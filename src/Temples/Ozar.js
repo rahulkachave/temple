@@ -23,8 +23,8 @@ const Ozar = () => {
   
    
     <article className='Temple'> 
-    <div className='Templediv'>
-    <div > < img src={ganesha2} alt="Ganesha 2"/></div>
+    
+    <div className='Templeimg' > < img src={ganesha2} alt="Ganesha 2"/></div>
       
         <h2 className='h2headingtag'>Vighneshwar Temple </h2>
         <p>The Sri Mayureshwar Temple of Morgaon is one of the eight major temples of Ashtavinayaka. It is said that the name Morgaon is also the story of the peacock</p>
@@ -34,7 +34,7 @@ const Ozar = () => {
        
         <p>Ashtavinayak temples  is the most important shrine among the Ashtavinayaka temples and has four entrances. At each entrance there is a picture of an avatar of Lord Ganesha from each area.This temple faces north and has a fifty feet high rampart. </p>
        <p>    There are two Deepmalas in the temple premises.As soon as one enters the temple, one sees a six feet tall stone rat and a large seated Nandi. Nandi faces Ganpati and this is the only shrine that has Nandi in front of Ganpati. Rats and Nandi are like guardians of the temple. The trunk of Swayambhu Ganesha in this temple is turned to the left and the navel and eyes of Ganesha are studded with diamonds. The idol has a protective umbrella of a snake. The temple also has idols of Riddhi (Intellect) and Siddhi (Ability).    </p>
-           </div>     
+               
     </article>
 
    
