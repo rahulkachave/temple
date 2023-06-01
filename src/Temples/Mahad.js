@@ -27,7 +27,7 @@ const Mahad = () => {
 
     <div className='Templeimg' > < img src={ganesha2} alt="Ganesha 2"/></div>
       
-        <h2 className='h2headingtag'> VaradVinayak Mahad Temple </h2>
+        <h2 className='h2headingtag'> VaradVinayak ganesha Mahad Temple </h2>
         <p>The Sri Mayureshwar Temple of Morgaon is one of the eight major temples of Ashtavinayaka. It is said that the name Morgaon is also the story of the peacock</p>
         <p>Morgaon is an Adyapeeth - one of the oldest temples of Ganesha and Ganesha is considered to be the best deity here. This temple attracts thousands of devotees who visit Ashtavinayaka.</p>
       <p>Morgaon is situated in the south-east direction of Pune. It is only two hours away from Pune via Saswad-Jejuri. The Ashtavinayak Yatra begins with the darshan of Sri Mayureshwara at Morgaon.</p>
