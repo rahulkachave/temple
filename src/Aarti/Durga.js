@@ -37,7 +37,7 @@ const Durga = () => {
 <Link className="nav-link" to ={'/MHTemples'}><h4>Maharastra Temple</h4></Link>
 <Link  className="nav-link" to ={'/Ganapati'}><h4>Ganapati Aarti</h4></Link>
 <Link className="nav-link"  to ={'/Details'}><h4>Details Aarti</h4></Link>
-<Link className="nav-link" to ={'/Durga'}><h4>DurgaAArti Aarti</h4></Link>
+<Link className="nav-link" to ={'/Durga'}><h4>DurgaArti Aarti</h4></Link>
 <Link className="nav-link" to ={'/Mahalaxmi'}><h4>Mahalaxmi Aarti</h4></Link>
 <Link className="nav-link" to ={'/Saibaba'}><h4>Saibaba Aarti</h4></Link>
 
