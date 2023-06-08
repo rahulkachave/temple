@@ -2,29 +2,48 @@
 import { Link, Outlet } from 'react-router-dom'
 import A1 from './/../staic/A1.png'
 import A2 from './/../staic/A2.jpg'
+import { useTranslation } from 'react-i18next';
+import { I18nextProvider } from 'react-i18next';
+import i18n from '../Localtranslation/I18n'
 
 const Details = () => {
- 
+  const { t , I18n} = useTranslation();
+
+  const changeLanguage = (language) => {
+    i18n.changeLanguage(language)
+      .then(() => {
+        // Language changed successfully
+      })
+      .catch((error) => {
+        console.error('Error in changing language:', error);
+      });
+  };
   
   return (
     <div>
+      <I18nextProvider i18n={I18n}>
+        <button onClick={() => changeLanguage('en')}>English</button>
+      <button onClick={() => changeLanguage('fr')}>Français</button>
+      <button onClick={() => changeLanguage('hi')}>hindi</button>
+      </I18nextProvider>
       <header className='header'><div className='marquee'><div> Maharashtriya- Aarati's</div></div></header>
 
       <div className='astvinayaklink'>
       {/* <Link className="nav-link"  to ={'/Details'}><h4>Aarti Templet</h4></Link> */}
-      <Link className="nav-link" to ={'/MHTemples'}><h4>MhTemple</h4></Link>
-      <Link  className="nav-link" to ={'/Ganapati'}><h4>Ganapati</h4></Link>
-      <Link className="nav-link"  to ={'/Details'}><h4>Details</h4></Link>
-      <Link className="nav-link" to ={'/Durga'}><h4>DurgaAArti</h4></Link>
-      <Link className="nav-link" to ={'/Mahalaxmi'}><h4>Mahalaxmi</h4></Link>
-      <Link className="nav-link" to ={'/Saibaba'}><h4>Saibaba</h4></Link>
+      <Link className="nav-link" to ={'/MHTemples'}><h4>{t('navlink.mhtemple')}</h4></Link>
+      <Link  className="nav-link" to ={'/Ganapati'}><h4>{t('navlink.Ganapati')}</h4></Link>
+      <Link className="nav-link"  to ={'/Details'}><h4>{t('navlink.Details')}</h4></Link>
+      <Link className="nav-link" to ={'/Durga'}><h4>{t('navlink.Durga')}</h4></Link>
+      <Link className="nav-link" to ={'/Mahalaxmi'}><h4>{t('navlink.Mahalaxmi')}</h4></Link>
+      <Link className="nav-link" to ={'/Saibaba'}><h4>{t('navlink.Saibaba')}</h4></Link>
 
       </div>
 
   
       <article className='Temple'>
-        <h4  className='h2headingtag'>* WHy Aarti is important in hindu religion*</h4>
-        
+        <h4  className='h2headingtag'>{t('domain.myAarthi')}</h4>
+        <p>{t('domain.mya')}</p>
+        <p>--------------------------------------------</p>
         <p> Aarti plays a vital role in Hinduism as a means of expressing devotion, seeking divine blessings, and fostering a deep spiritual connection with the deities. It is a beautiful and sacred practice that holds great significance for Hindu devotees.</p>
         <p>Aarati is derived from the Sanskrit word  (ārātrika) which means something that removes rātrī, darkness (or light waved in darkness before an icon). A Marathi language reference says it is also known as Mahaneeranjana </p>
         <p><b>Homa: </b>Aarti is said to have descended from the Vedic concept of fire rituals, or homa. In the traditional aarti ceremony, the flower represents the earth (solidity), the water and accompanying handkerchief correspond with the water element (liquidity), the ghee or oil lamp represents the fire component (heat), the peacock fan conveys the precious quality of air (movement), and the yak-tail fan represents the subtle form of ether (space). The incense represents a purified state of 

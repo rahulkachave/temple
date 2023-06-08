@@ -17,7 +17,7 @@
 }
 .toggle-button {
   display: inline-block;
-  padding: 6px 8px;
+  /* padding: 6px 8px; */
   border: none;
   border-radius: 20px;
   font-size: 10px;
@@ -40,6 +40,12 @@
 .toggle-button:hover {
   background-color: #777;
   color: #fff;
+}
+.lang{
+  float: right;
+  background-color: #bed1c0;
+  display: inline-block;
+  
 }
 
 
@@ -186,7 +192,7 @@ flex-wrap: wrap;
 background-color: rgb(237, 221, 190);
 padding :10px ;
 float: left;
-width: 45.5%;
+width: 45.9%;
 text-align: center;
 padding-bottom: 50px;
   display: flex;

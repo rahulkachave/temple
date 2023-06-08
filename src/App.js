@@ -44,6 +44,17 @@ function App() {
     <button onClick={handleToggle} className={`toggle-button ${userPreference}`}>
       {userPreference === 'dark'? 'dark':'light'}Color </button>
 
+{/* <ul> */}
+  {/* <li> */}
+    <select className='lang'>
+      <option value={"en"}>English</option>
+      <option value={"fr"}>Francais</option>
+      <option value={"es"}>Espa</option>
+    </select>
+  {/* </li> */}
+{/* </ul> */}
+
+
 
      
      
