@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/temple/static/css/main.f2eb3231.css",
-    "main.js": "/temple/static/js/main.e5922db3.js",
+    "main.css": "/temple/static/css/main.1830444f.css",
+    "main.js": "/temple/static/js/main.5001d19c.js",
     "static/js/787.ac4f228c.chunk.js": "/temple/static/js/787.ac4f228c.chunk.js",
     "static/media/ganesha6.jpg": "/temple/static/media/ganesha6.cf8449811c34dee86da1.jpg",
     "static/media/ganesha5.jpg": "/temple/static/media/ganesha5.4e04928f87a9ba3a60ab.jpg",
@@ -20,16 +20,15 @@
     "static/media/Du4.jpg": "/temple/static/media/Du4.d4185385aa293f8ebad4.jpg",
     "static/media/Du5.jpg": "/temple/static/media/Du5.2e8806b2c4e1b3b019c1.jpg",
     "static/media/Du10.webp": "/temple/static/media/Du10.0dd31db17fb53809ec4e.webp",
-    "static/media/A1.png": "/temple/static/media/A1.eacb17a7ac88f308353e.png",
     "static/media/Du6.jpg": "/temple/static/media/Du6.cf561c0b056f84f6f105.jpg",
     "static/media/bells.gif": "/temple/static/media/bells.9415734066267c10dac6.gif",
     "index.html": "/temple/index.html",
-    "main.f2eb3231.css.map": "/temple/static/css/main.f2eb3231.css.map",
-    "main.e5922db3.js.map": "/temple/static/js/main.e5922db3.js.map",
+    "main.1830444f.css.map": "/temple/static/css/main.1830444f.css.map",
+    "main.5001d19c.js.map": "/temple/static/js/main.5001d19c.js.map",
     "787.ac4f228c.chunk.js.map": "/temple/static/js/787.ac4f228c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f2eb3231.css",
-    "static/js/main.e5922db3.js"
+    "static/css/main.1830444f.css",
+    "static/js/main.5001d19c.js"
   ]
 }
