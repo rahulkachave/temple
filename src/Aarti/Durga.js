@@ -13,10 +13,11 @@ import D9  from './/../staic/Du9.jpg'
 import D10  from './/../staic/Du10.webp'
 import bells from './/../staic/bells.gif'
 import audioFile from '../staic/ga1.mp3';
+import { useTranslation } from 'react-i18next'
 
 
 const Durga = () => {
-
+const {t} = useTranslation();
   const [isPlaying, setIsPlaying] = useState(false);
 
   const toggleAudio = () => {
@@ -34,12 +35,11 @@ const Durga = () => {
            <header className='header'><div className='marquee'><div>  श्री दुर्गे  आर‍‍ती ( Durga Aarti)</div></div></header>
 
 <div className='aaratileft'>
-<Link className="nav-link" to ={'/MHTemples'}><h4>Maharastra Temple</h4></Link>
-<Link  className="nav-link" to ={'/Ganapati'}><h4>Ganapati Aarti</h4></Link>
-<Link className="nav-link"  to ={'/Details'}><h4>Details Aarti</h4></Link>
-<Link className="nav-link" to ={'/Durga'}><h4>DurgaArti Aarti</h4></Link>
-<Link className="nav-link" to ={'/Mahalaxmi'}><h4>Mahalaxmi Aarti</h4></Link>
-<Link className="nav-link" to ={'/Saibaba'}><h4>Saibaba Aarti</h4></Link>
+<Link className="nav-link" to ={'/MHTemples'}><h4>{t('navlink.mhtemple')}</h4></Link>
+<Link  className="nav-link" to ={'/Ganapati'}><h4>{t('navlink.Ganapati')}</h4></Link>
+<Link className="nav-link" to ={'/Durga'}><h4>{t('navlink.Durga')}</h4></Link>
+<Link className="nav-link" to ={'/Mahalaxmi'}><h4>{t('navlink.Mahalaxmi')}</h4></Link>
+<Link className="nav-link" to ={'/Saibaba'}><h4>{t('navlink.Saibaba')}</h4></Link>
 
 </div>
 

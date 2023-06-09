@@ -2,7 +2,9 @@ import React from 'react'
 
 import { Link } from 'react-router-dom'
 import ganesha2 from './/../staic/Moreshawarganapati.webp'
+import { useTranslation } from 'react-i18next'
 const Lenyadri = () => {
+  const {t}=useTranslation();
   return (
     <div>
      
@@ -10,16 +12,16 @@ const Lenyadri = () => {
           <div className='marquee'>
             <div>Ashtavinayak temples :-Girijatmaj- Lenyadri</div></div> </header>
             <div className='astvinayaklink'>
-<Link className="nav-link"  to ={'/Details'}><h4>Arati Book</h4></Link>
-<Link className="nav-link" to={'/Morgaon'}><h4>First Ashtavinayak :- Moreshawar</h4></Link>
-<Link className="nav-link" to={'/SIddhivinayak'}><h4> Second Ashtavinayak:- Siddhivinayak</h4></Link>
-<Link  className="nav-link" to={'/PaliTemple'}><h4>Third Ashtavinayak :-Pali</h4></Link>
-<Link  className="nav-link" to={'/Mahad'}><h4>Four Ashtavinayak:-Mahad</h4></Link>
-<Link className="nav-link"  to={'/Ozar'}><h4>Five Ashtavinayak :- Ozar</h4></Link> 
-<Link className="nav-link" to={'/Ranjangaon'}><h4>Six Ashtavinayak :- Rangangaon</h4></Link>
-<Link className="nav-link" to={'/Lenyadri'}><h4>Seven Ashtavinayak :-Lenyadri</h4></Link>
-<Link className="nav-link" to ={'/Theur'}><h4>Eight Ashtavinayak :- Theur</h4></Link>
-<Link className="nav-link"  to ={'/Ashtavinayak'}><h4> Ashtavinayak page </h4></Link>
+            <Link className="nav-link"  to ={'/Details'}><h4>{t('navlink.Details')}</h4></Link>
+<Link className="nav-link" to={'/Morgaon'}><h4>{t('navlink.FirstAshtavinayak')}</h4></Link>
+<Link className="nav-link" to={'/SIddhivinayak'}><h4> {t('navlink.SecondAshtavinayak')}</h4></Link>
+<Link  className="nav-link" to={'/PaliTemple'}><h4>{t('navlink.ThirdAshtavinayak')}</h4></Link>
+<Link  className="nav-link" to={'/Mahad'}><h4>{t('navlink.FourAshtavinayak')}</h4></Link>
+<Link className="nav-link"  to={'/Ozar'}><h4>{t('navlink.FiveAshtavinayak')}</h4></Link> 
+<Link className="nav-link" to={'/Ranjangaon'}><h4>{t('navlink.SixAshtavinayak')}</h4></Link>
+<Link className="nav-link" to={'/Lenyadri'}><h4>{t('navlink.SevenAshtavinayak')}</h4></Link>
+<Link className="nav-link" to ={'/Theur'}><h4>{t('navlink.EightAshtavinayak')}</h4></Link>
+<Link className="nav-link"  to ={'/Ashtavinayak'}><h4> {t('navlink.Ashtavinayakpage')} </h4></Link>
     </div>
     <div className='ifrm'>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3766.892895289274!2d73.88513397599675!3d19.24349904669132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdd15760bac193d%3A0xf6d6e53f7c986352!2sGirijatmaj%20Lenyadri%20Ganapati%20Ashtavinayak!5e0!3m2!1sen!2sin!4v1685013701068!5m2!1sen!2sin" 

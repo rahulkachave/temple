@@ -1,41 +1,42 @@
 
-import { Link, Outlet } from 'react-router-dom'
-import A1 from './/../staic/A1.png'
-import A2 from './/../staic/A2.jpg'
+import { Link } from 'react-router-dom'
+
 import { useTranslation } from 'react-i18next';
-import { I18nextProvider } from 'react-i18next';
-import i18n from '../Localtranslation/I18n'
+import SearchButton from './Searchbtn';
+
+
 
 const Details = () => {
-  const { t , I18n} = useTranslation();
+  const { t } = useTranslation();
+  const items = [    { path: '/home', label: 'Home' },
+  { path: '/Details', label: 'Details' },
+  { path: '/Morgaon', label: 'FirstAshtavinayak' },
+  { path: '/SIddhivinayak', label: 'SecondAshtavinayak' },];
+  const handleSearch = (event) => {
+    const searchTerm = event.target.value.toLowerCase();
 
-  const changeLanguage = (language) => {
-    i18n.changeLanguage(language)
-      .then(() => {
-        // Language changed successfully
-      })
-      .catch((error) => {
-        console.error('Error in changing language:', error);
-      });
+    const filteredItems = items.filter((item) => {
+      const label = item.label.toLowerCase();
+      return label.includes(searchTerm);
+    });
+
+    // Perform further actions with the filteredItems
+    console.log(filteredItems);
   };
   
   return (
     <div>
-      <I18nextProvider i18n={I18n}>
-        <button onClick={() => changeLanguage('en')}>English</button>
-      <button onClick={() => changeLanguage('fr')}>Français</button>
-      <button onClick={() => changeLanguage('hi')}>hindi</button>
-      </I18nextProvider>
       <header className='header'><div className='marquee'><div> Maharashtriya- Aarati's</div></div></header>
-
+      <SearchButton data={items} />
+      
       <div className='astvinayaklink'>
       {/* <Link className="nav-link"  to ={'/Details'}><h4>Aarti Templet</h4></Link> */}
-      <Link className="nav-link" to ={'/MHTemples'}><h4>{t('navlink.mhtemple')}</h4></Link>
+    <Link className="nav-link" to ={'/MHTemples'}><h4>{t('navlink.mhtemple')}</h4></Link>
       <Link  className="nav-link" to ={'/Ganapati'}><h4>{t('navlink.Ganapati')}</h4></Link>
       <Link className="nav-link"  to ={'/Details'}><h4>{t('navlink.Details')}</h4></Link>
       <Link className="nav-link" to ={'/Durga'}><h4>{t('navlink.Durga')}</h4></Link>
       <Link className="nav-link" to ={'/Mahalaxmi'}><h4>{t('navlink.Mahalaxmi')}</h4></Link>
-      <Link className="nav-link" to ={'/Saibaba'}><h4>{t('navlink.Saibaba')}</h4></Link>
+      <Link className="nav-link" to ={'/Saibaba'}><h4>{t('navlink.Saibaba')}</h4></Link> 
 
       </div>
 
@@ -68,7 +69,7 @@ const Details = () => {
            other deities as well such as Om Jai Shiv omkara, Om Jai Lakshmi mata, Om Jai Ambe gauri, Om Jai Adya Shakti, Om Jai Saraswati Mata, Om Jai Gange Mata, Om Jai Tulsi Mata and Om Jai Surya Bhagvaan. In Ganesha worship, the aarti Sukhakarta Dukhaharta is popular. </p>
          
       </article>
-     
+
     </div>
   )
 }

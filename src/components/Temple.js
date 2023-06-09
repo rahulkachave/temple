@@ -1,15 +1,17 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
 
 
 const Temple = () => {
+  const {t}= useTranslation();
   return (
     <div > <header className='header' >
     <div className='marquee'>
       <div> Indian Temples & History</div></div> </header>
            
            <div className='astvinayaklink' >
-           <Link  className="nav-link" to={'/MHTemples'}><h4>Maharashtra Temples</h4></Link>
+           <Link  className="nav-link" to={'/MHTemples'}><h4>{t('navlink.MaharashtraTemples')}</h4></Link>
 {/* <Link to={'/Dagadusheth'}><h2>Dagadusheth</h2></Link>
 <Link to={'/SIddhivinayak'}><h2>SIddhivinayak</h2></Link>
 <Link to={'/PaliTemple'}><h2>Paliganesh</h2></Link>

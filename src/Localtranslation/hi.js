@@ -5,11 +5,35 @@ export const translationHI ={
       
   },
   navlink:{
+    //-------------------------------header------------------
+   
+    home:"घर",
+    temple: "भारतीय मंदिर",
+    godstemples:"देवता और मंदिर ",
+    Details:"आरती संग्रह",
+    students:"छात्रों",
+    // navlink aarti snagrah-----------------------------
     mhtemple:"महाराष्ट्र मंदिर",
     Ganapati:"गणपति आरती",
     Details:"आरती संग्रह",
     Durga:"दुर्गा आरती",
     Mahalaxmi:"महालक्ष्मी आरती",
-    Saibaba:"साईबाबा आरती"
+    Saibaba:"साईबाबा आरती",
+
+    //indian temples------------------
+    MaharashtraTemples:"महाराष्ट्र के मंदिर",
+    AshtavinayakGanapati:"अष्टविनायक गणपति",
+    DagadushethGanapati:"दगडूशेठ गणपति",
+     //Ashtavinayak temple--------------------------------
+     FirstAshtavinayak:"प्रथम अष्टविनायक :- मोरेश्वर",
+     SecondAshtavinayak:" दूसरा अष्टविनायक:- सिद्धिविनायक",
+     ThirdAshtavinayak :"तीसरा अष्टविनायक :- पाली",
+     FourAshtavinayak:"चौथा अष्टविनायक:- महाड",
+     FiveAshtavinayak :"पांचवां अष्टविनायक :- – ओझर ",
+     SixAshtavinayak :" छठा अष्टविनायक :- रांजनगांव",
+     SevenAshtavinayak :"सातवां अष्टविनायक:- लेन्याद्री ",
+     EightAshtavinayak :"आठवां अष्टविनायक :- थेउर ",
+     Ashtavinayakpage :"अष्टविनायक मुख्य पृष्ठ  "
+    
    }
 }

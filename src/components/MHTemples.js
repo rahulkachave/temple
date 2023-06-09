@@ -10,7 +10,9 @@ import D7  from './/../staic/Du7.webp'
 import D8 from './/../staic/Du8.png'
 import D9  from './/../staic/Du9.jpg'
 import D10  from './/../staic/Du10.webp'
+import { useTranslation } from 'react-i18next'
 const MHTemples = () => {
+  const {t}= useTranslation();
   return (
     <div>
       
@@ -21,9 +23,9 @@ const MHTemples = () => {
            <div className='astvinayaklink'>
          
 
-<Link className="nav-link"  to ={'/Ashtavinayak'}><h4>Ashtavinayak Ganapati </h4></Link>
-<Link className="nav-link"  to ={'/Dagadusheth'}><h4>Dagadusheth Ganapati</h4></Link>
-<Link className="nav-link"  to ={'/Details'}><h4>Aarti Book</h4></Link>
+<Link className="nav-link"  to ={'/Ashtavinayak'}><h4>{t('navlink.AshtavinayakGanapati')} </h4></Link>
+<Link className="nav-link"  to ={'/Dagadusheth'}><h4>{t('navlink.DagadushethGanapati')}</h4></Link>
+<Link className="nav-link"  to ={'/Details'}><h4>{t('navlink.Details')}</h4></Link>
 
 
 

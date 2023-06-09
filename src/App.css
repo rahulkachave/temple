@@ -42,11 +42,12 @@
   color: #fff;
 }
 .lang{
+
   float: right;
-  background-color: #bed1c0;
+  background-color: #d1c1be;
   display: inline-block;
-  
 }
+
 
 
 
@@ -159,7 +160,7 @@ flex-wrap: wrap;
 /* ----------------------------------Aarti left side  */
 .aaratileft{
   background-color: rgb(242, 240, 237);
-  height: 1000PX;
+  height: 100%;
   /* padding :10px ; */
   float: left;
   width:20%;
@@ -391,13 +392,13 @@ padding-top: 2%;
  
 }
 .astvinayaklink{
-  background-color: rgb(243, 247, 236);
-   height: 500px;
-  padding-left: 20px;
-  padding-right:20px;
+  background-color: rgb(248, 249, 245);
+   height: 800px;
+  padding-left: 15px;
+  padding-right:15px;
   
   float: left;
-  width: 22%;
+  width: 21%;
   /* text-align: center; */
   justify-content: center;
 }
@@ -456,3 +457,50 @@ text-align: center;
 .leftbell{
  margin-left: 10px;
 }
+
+.nav-links-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.search-input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.search-button {
+  padding: 8px 12px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+/* ---------------------search butoon */
+/* .nav-list {
+  list-style: none;
+  padding: 0;
+}
+
+.nav-item {
+  margin-bottom: 5px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #4caf50;
+} */

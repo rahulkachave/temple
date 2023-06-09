@@ -30,6 +30,9 @@ import MHTemples from './components/MHTemples';
 import Ashtavinayak from './components/Ashtavinayak';
 import Ram from './Godsfolder/Ram';
 import { useState } from 'react';
+import MyComponent from './Localtranslation/MyComponent';
+import Java from './components/Java';
+
 function App() {
   const [userPreference, setUserPreference] = useState('light'); // Assuming 'dark' is the default preference
 
@@ -39,18 +42,21 @@ function App() {
   return (
     <div>
     <Router>
-    <div className='welcome'> Wel-COME</div>
+ 
+    <div className='welcome'>wel-come
+  <Java/>
+    <MyComponent/></div>
     <div className={`App ${userPreference}`}>
     <button onClick={handleToggle} className={`toggle-button ${userPreference}`}>
       {userPreference === 'dark'? 'dark':'light'}Color </button>
-
+      
 {/* <ul> */}
   {/* <li> */}
-    <select className='lang'>
+    {/* <select className='lang'>
       <option value={"en"}>English</option>
       <option value={"fr"}>Francais</option>
       <option value={"es"}>Espa</option>
-    </select>
+    </select> */}
   {/* </li> */}
 {/* </ul> */}
 

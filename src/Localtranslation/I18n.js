@@ -2,27 +2,29 @@ import I18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 
 import { translationEN } from './en'; // Translations for English
-import { translationFR } from './fr'; // Translations for French
+import { translationTelugu} from './Telugu'; // Translations for telugu
 import {translationHI } from './hi'; // Translations for Spanish
 
 const resources = {
   en: {
     translation: translationEN,
   },
-  fr: {
-    translation: translationFR,
+  Telugu: {
+    translation: translationTelugu,
   },
   hi: {
     translation: translationHI,
   },
 };
 
-I18n.use(initReactI18next).init({
-  resources,
+I18n
+.use(initReactI18next)  // Initialize i18next for React
+.init({
+  resources,  // Load translations
   lng: 'en', // Default language
-  fallbackLng: 'en',
+  fallbackLng: 'en', // Fallback language if translation is missing
   interpolation: {
-    escapeValue: false,
+    escapeValue: false, // React already escapes by default
   },
 });
 
