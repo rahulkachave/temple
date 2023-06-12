@@ -13,7 +13,7 @@ const Footer = () => {
  <a href="mailto:rahulkachave2980@gmail.com"> <ContactMailIcon style={{ fontSize: '30px' }} /></a> 
    <a href="https://www.facebook.com/"> <FacebookIcon style={{ fontSize: '30px' }}/></a>
    <a href ="https://www.instagram.com/accounts/login/"><InstagramIcon style={{ fontSize: '30px',color:'orange' }}/></a>
-  <a href ="https://web.whatsapp.com/"><WhatsAppIcon style={{ fontSize: '30px',color:'green' }}/></a>
+  <a href ="https://wa.me/7030770407" target="_blank"rel="noreferrer"><WhatsAppIcon style={{ fontSize: '30px',color:'green' }}/></a>
   <NavLink  to='/contact'><CallIcon style={{ fontSize: '30px',color:'green' }}/></NavLink>
   <NavLink to="https://www.facebook.com/login">Sign In with Facebook</NavLink>
   </footer>

@@ -28,7 +28,7 @@ export const translationEN={
      SecondAshtavinayak:" Second Ashtavinayak:- Siddhivinayak",
      ThirdAshtavinayak :"Third Ashtavinayak :-Pali",
      FourAshtavinayak:"Fourth Ashtavinayak:-Mahad",
-     FiveAshtavinayak :"Fifth Ashtavinayak :- OzarFive Ashtavinayak :- Ozar",
+     FiveAshtavinayak :"Fifth Ashtavinayak  :- Ozar",
      SixAshtavinayak :"Sixth Ashtavinayak :- Rangangaon ",
      SevenAshtavinayak :"Seventh Ashtavinayak :-Lenyadri ",
      EightAshtavinayak :" Eight Ashtavinayak :- Theur",
