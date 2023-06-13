@@ -24,9 +24,7 @@ const MyComponent = () => {
   return (
   <div>
   <I18nextProvider i18n={i18n}>
-       {/* <button onClick={() => changeLanguage('en')}>English</button>
-      <button onClick={() => changeLanguage('Telugu')}>Telugu</button>
-      <button onClick={() => changeLanguage('hi')}>hindi</button> */}
+       
        
       <div className='lang'> <select className='lang' onChange={onOptionChangeHandler} value={selectedOption}>
       <option value='en'>English</option>

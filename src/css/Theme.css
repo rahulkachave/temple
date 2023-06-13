@@ -1,0 +1,33 @@
+.light-theme{
+    background-color: #fff;
+    color: #0a0a0a;
+}
+.dark-theme{
+    background-color: #0c0c0c;
+    color: #dadad2; 
+}
+
+.btns {
+    /* Common button styles */
+  
+    border: none;
+    border-radius: 10px;
+    background-color: #ebdbdb;
+    color: #333;
+    border: 1px solid;
+    cursor: pointer;
+  }
+  
+  .btns.dark {
+    /* Styles for the button when in dark theme */
+    background-color: #333;
+    color: #eaeaea;
+  }
+  
+  .btns.active {
+    /* Styles for the button when toggled on */
+    background-color: #4285f4;
+    color: #fff;
+  }
+  
+

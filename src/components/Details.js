@@ -2,63 +2,21 @@
 import { Link } from 'react-router-dom'
 
 import { useTranslation } from 'react-i18next';
-import SearchButton from './Searchbtn';
+
+import Searchbtn from './Searchbtn';
 
 
 
 const Details = () => {
   const { t } = useTranslation();
-  // const items = [    { path: '/home', label: 'Home' },
-  // { path: '/Details', label: 'Details' },
-  // { path: '/Morgaon', label: 'FirstAshtavinayak' },
-  // { path: '/SIddhivinayak', label: 'SecondAshtavinayak' },];
-  // const handleSearch = (event) => {
-  //   const searchTerm = event.target.value.toLowerCase();
 
-  //   const filteredItems = items.filter((item) => {
-  //     const label = item.label.toLowerCase();
-  //     return label.includes(searchTerm);
-  //   });
-
-  //   // Perform further actions with the filteredItems
-  //   console.log(filteredItems);
-  // };
-  const cityNames = [
-    { path: '/Details', label: 'Details' },
-    { path: '/Morgaon', label: 'FirstAshtavinayak' },
-    { path: '/SIddhivinayak', label: 'SecondAshtavinayak' },
-    { path: '/Java', label: 'Java' },
-		"Amsterdam",
-		"Berlin",
-		"London",
-		"New York",
-		"Paris",
-		"Rome",
-		"San Francisco",
-		"Tokyo",
-		"Washington DC",
-		"Zurich",
-		"Copenhagen",
-		"Helsinki",
-		"Madrid",
-		"Reykjavik",
-		"Stockholm",
-		"Vancouver",
-		"Vienna",
-		"Zagreb",
-		"Budapest",
-		"Dublin",
-		"Hamburg",
-		"Krakow",
-		"Lisbon",
-		"Ljubljana",
-	];
   return (
     <div>
       <header className='header'><div className='marquee'><div> Maharashtriya- Aarati's</div></div></header>
-      <div className="container"> <SearchButton  options={cityNames} /></div>
+     
       
       <div className='astvinayaklink'>
+      <Searchbtn/>
       {/* <Link className="nav-link"  to ={'/Details'}><h4>Aarti Templet</h4></Link> */}
     <Link className="nav-link" to ={'/MHTemples'}><h4>{t('navlink.mhtemple')}</h4></Link>
       <Link  className="nav-link" to ={'/Ganapati'}><h4>{t('navlink.Ganapati')}</h4></Link>
