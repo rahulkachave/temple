@@ -219,7 +219,7 @@ padding-bottom: 50px;
 }
 
 /* --------------------------------Location */
-
+/* 
 .teamjava{
   background-color: rgb(247, 236, 236);
   height: 500px;
@@ -249,7 +249,7 @@ padding-bottom: 50px;
 .teamjava .nav-link:hover h4 {
   transform: rotateY(-20deg);
   color: #4ec16f;
-}
+} */
 /* ---------------------------------Header----------------- */
 
 .header{
@@ -259,7 +259,7 @@ padding-bottom: 50px;
   color: rgb(209, 43, 43);
   color: rgb(224, 77, 156);
   justify-content: center;
-    border: 1px solid; 
+    border: none; 
   }
   .marquee {
     display: flex;
@@ -368,6 +368,8 @@ padding-right: 25%;
 padding-bottom: 20%;
 padding-top: 2%;
 
+
+
 }
 
 .Templeimg{
@@ -397,7 +399,8 @@ padding-right: 25%;
   margin: auto;
   float: left;
   width: 21%;
-  /* text-align: center; */
+  overflow-y: scroll;
+
 
   justify-content: center;
 }
