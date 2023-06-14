@@ -2,6 +2,7 @@ import '../css/searchbtn.css'
 import React, { useState } from 'react'
 import Autocomplete from 'react-autocomplete'
 import { NavLink } from 'react-router-dom';
+import '../css/searchbtn.css';
 function Searchbtn() {
 
 	// Defining a state named value, which we can update by calling setValue Value will store the typed value or selected suggestion by the user
@@ -34,6 +35,7 @@ function Searchbtn() {
 					// To handle the case that when the user type, suggested values should be independent of upper or lower case
 					shouldItemRender={(item, value
 					) => item.label.toLowerCase().indexOf(value.toLowerCase()) > -1}
+
 					getItemValue={item => item.label}
                     renderItem={(item, isHighlighted) => (
 						<div className={`autocomplete-item ${isHighlighted ? 'highlighted' : ''}`} key={item.label}>
@@ -52,6 +54,7 @@ function Searchbtn() {
 
 					// Added style in Autocomplete component
 					inputProps={{
+					
 						
 							className: 'autocomplete-input',
 							placeholder: 'Search here'

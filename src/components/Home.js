@@ -1,6 +1,7 @@
 import React from 'react'
 
 import homes from "../home.json"
+import ImgSlider from './ImgSlider';
 const Home = () => {
   console.log(homes);
   return (
@@ -8,6 +9,7 @@ const Home = () => {
      <header className='header' >
           <div className='marquee'>
             <div>Download the photos</div></div> </header>
+<ImgSlider/>
 <div>
 
 

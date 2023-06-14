@@ -32,9 +32,10 @@ import Ashtavinayak from './components/Ashtavinayak';
 import Ram from './Godsfolder/Ram';
 
 import MyComponent from './Localtranslation/MyComponent';
+import Java from './components/Java';
+import Searchbtn from './components/Searchbtn';
 import Theme from './components/Theme';
 import './css/Theme.css'
-
 
 function App() {
 
@@ -42,14 +43,6 @@ function App() {
     <div>
     
     <Router>
-    
-   
-
-
-
-
-     
-     
     <Main/>
 
            <Routes>
