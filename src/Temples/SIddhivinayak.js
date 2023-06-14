@@ -1,8 +1,18 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import ganesha2 from './/../staic/Moreshawarganapati.webp'
+import ganesha2 from './/../staic/ganesha2.jpg'
+import ganesha3 from './/../staic/ganesha3.jpg'
+import ganesha4 from './/../staic/ganesha4.jpg'
+import ganesha5 from './/../staic/ganesha5.jpg'
+import ImageSlider from '../components/ImageSlider'
 import { useTranslation } from 'react-i18next'
 const SIddhivinayak = () => {
+  const slides =[
+    { src: ganesha3, alt: 'Durga 8' },
+    { src: ganesha2, alt: 'ganesha2' },
+ { src: ganesha4, alt: 'ganesha4 ' },
+ { src: ganesha5, alt: 'ganesha5' }
+];
   const {t} =useTranslation();
   return (
     <div>   
@@ -22,9 +32,27 @@ const SIddhivinayak = () => {
 <Link className="nav-link" to ={'/Theur'}><h4>{t('navlink.EightAshtavinayak')}</h4></Link>
 <Link className="nav-link"  to ={'/Ashtavinayak'}><h4> {t('navlink.Ashtavinayakpage')} </h4></Link>
     </div>
-  
+    <div className='ifrm'>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3788.513373856242!2d74.31488657598179!3d18.27811637653382!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc304772a0ecde5%3A0x1fadcf2fad6bf00d!2sShri%20Mayureshwar%20Ganapati%20Temple%2C%20Morgaon!5e0!3m2!1sen!2sin!4v1685010497892!5m2!1sen!2sin" 
+      
+       style={{ border: '0' }}
+       allowfullscreen=""
+       loading="lazy"
+       referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+<div className='locdetils'>
+
+<p>Location:-  Morgaon :- Moreshawarganapati</p>
+<p><b>Darshan Timming :-</b>5am - 10:30pm</p>
+<p><b>near to good place:-</b><br/>Raigad Ford 45km,<br/>Diveagar Beach 60km ,<br/>mahabaleshwar 100km </p>
+</div>
+</div>
    
-    <div className='Templeimg' > < img src={ganesha2} alt="Ganesha 2"/></div>
+    <div className='Templeimg'> 
+    <div className='imgcon'>
+        <ImageSlider slides={slides} />
+    </div>
+    </div>
     <article className='Temple'> 
     
       

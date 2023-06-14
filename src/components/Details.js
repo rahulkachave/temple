@@ -7,6 +7,7 @@ import Searchbtn from './Searchbtn';
 
 
 
+
 const Details = () => {
   const { t } = useTranslation();
 

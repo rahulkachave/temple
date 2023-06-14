@@ -43,4 +43,52 @@
     cursor: pointer;
     font-size: 20px;
   }
+ 
+  /* -------------------------------- */
+  .imgcon {
+    width: 70%;
+    height: 450px;
+    margin: 0 auto;
+  }
   
+  .ifrm{
+ 
+    background-color:rgb(233, 229, 229);
+    float: right;
+    width: 20%;
+    padding-right: 100px;
+    height: 1280px;
+    align-items: center;
+     
+  }
+  .ifrm iframe {
+   padding-left: 10%;
+   padding-right: 8%;
+   padding-top: 60%;
+   width:110% ;
+   height: 35%;
+  }
+  .locdetils {
+    width:110% ;
+    padding-left: 10%;
+    padding-right: 8%;
+  
+  }
+  .locdetils p {
+    background-color: #d9dec6;
+  }
+
+  .Temple{
+    
+    padding-bottom: 20%;
+    padding-left: 25%;
+  padding-right: 25%;
+  }
+  .Templeimg{
+    padding-left: 23.50%;
+  padding-right: 25%;
+   text-align: center;
+   padding-top: 2%;
+   padding-bottom: 2%;
+   background-color:rgb(250, 246, 246);
+  }

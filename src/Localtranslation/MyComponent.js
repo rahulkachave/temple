@@ -26,7 +26,8 @@ const MyComponent = () => {
   <I18nextProvider i18n={i18n}>
        
        
-      <div className='lang'> <select className='lang' onChange={onOptionChangeHandler} value={selectedOption}>
+      <div className='lang'> 
+      <select className='lang' onChange={onOptionChangeHandler} value={selectedOption}>
       <option value='en'>English</option>
         <option value='hi'>Hindi</option>
         <option value='Telugu'>Telugu</option>

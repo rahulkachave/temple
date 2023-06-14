@@ -1,9 +1,9 @@
 .App {
   text-align: justify;
   background-color: whitesmoke;
-  .nav-link {
+  /* .nav-link {
     text-decoration: none; 
-  }
+  } */
 }.App.dark {
   /* Styles for dark mode */
   background-color: #000;
@@ -11,13 +11,13 @@
 }
 
 .App.light {
-  /* Styles for light mode */
+  
   background-color: #fff;
   color: #000;
 }
 .toggle-button {
   display: inline-block;
-  /* padding: 6px 8px; */
+ 
   border: none;
   border-radius: 20px;
   font-size: 10px;
@@ -48,25 +48,26 @@
   background-color: #e3b8b0;
   display: inline-block;
 }
-.about{
+/* .about{
   background-color: white;
 
-}
-.Location{
+} */
+/* .Location{
   background-color: aquamarine;
   }
   .Location div{
     width :60%;
     height: 70%;
     float: right;
-  }
+  } */
 .h2headingtag{
 color:rgb(14, 76, 14);
 background-color: rgb(215, 231, 247);
 text-align: center;
+
 }
 
- .btnnext{
+ /* .btnnext{
   background-color: rgb(201, 227, 10);
   border-color: crimson;
   padding: 8px;
@@ -78,8 +79,8 @@ text-align: center;
   border-color: crimson;
   padding: 8px;
   width: 100px;
- }
-.artical{
+ } */
+/* .artical{
    float: left; 
    padding: 20px; 
   width:1250px;  
@@ -96,7 +97,7 @@ text-align: center;
   padding: 20px; 
  width:400px;  
  background-color: rgb(168, 51, 141);
-}
+} */
 /* ------------------------------Footer--------------------------- */
 .footer{
 position: fixed;
@@ -116,7 +117,7 @@ flex-wrap: wrap;
 .main{
   display:flex;
   justify-content: space-between;
-  /* flex-wrap: wrap; */
+
   padding: 40px;
   background-color: rgb(227, 236, 200);
 
@@ -140,7 +141,7 @@ flex-wrap: wrap;
    padding: 20px;
    padding-bottom: 60px;
    width:55%; 
-  /* background-color: rgb(241, 238, 234); */
+
 }
 
 /* -------------------------------- */
@@ -150,8 +151,8 @@ flex-wrap: wrap;
 }
 /* ----------------------------------Aarti left side  */
 .aaratileft{
-  background-color: rgb(227, 226, 223);
-  height: 100%;
+  background-color:rgb(250, 246, 246);
+  height: 1000px;
   float: left;
   width:20%;
   text-align: center;
@@ -177,9 +178,8 @@ flex-wrap: wrap;
   color: rgb(227, 18, 18);
 }
 
-/* ---------------------------------------------------------photos--------------------------------------------------------- */
+/* -----------------------------------------------------Aarati----photos--------------------------------------------------------- */
 .photos{
-
 background-color: rgb(237, 221, 190);
 padding :10px ;
 float: left;
@@ -218,38 +218,7 @@ padding-bottom: 50px;
 
 }
 
-/* --------------------------------Location */
-/* 
-.teamjava{
-  background-color: rgb(247, 236, 236);
-  height: 500px;
-  
-  float: left;
-  width: 10%;
-  text-align: center;
-  justify-content: center;
-}
-.teamjava .nav-link {
- 
-  perspective: 400px;
-  transition: transform 0.5s;
-}
-.teamjava .nav-link:hover {
-  transform: rotateY(20deg);
-}
-.teamjava .nav-link h4 {
-  font-size: 18px;
-  
- color: red;
-  transition: transform 0.5s;
-  
-  transition: color 0.3s ease;
-}
 
-.teamjava .nav-link:hover h4 {
-  transform: rotateY(-20deg);
-  color: #4ec16f;
-} */
 /* ---------------------------------Header----------------- */
 
 .header{
@@ -361,47 +330,17 @@ padding-bottom: 20px;
   width: 320px;
 }
 /* ----------------------------------------**---Ashatavinayak css---------------------- */
-.Temple{
-  /* text-align: center; */
-  padding-left: 23.50%;
-padding-right: 25%;
-padding-bottom: 20%;
-padding-top: 2%;
 
 
-
-}
-
-.Templeimg{
-  padding-left: 23.50%;
-padding-right: 25%;
- text-align: center;
- padding-top: 2%;
- background-color:rgb(250, 246, 246);
- 
-}
-.tempimg{
-  /* height: 30%;
-  width: 30%; */
-}
-.Templeimg img{
-  
-  height: 80%;
-  width: 80%;
-  border-radius: 20px;
- 
-}
 .astvinayaklink{
-  background-color:white;
+   background-color:rgb(250, 246, 246);
+   
    height: 1280px;
   padding-left: 15px;
   padding-right:15px;
   margin: auto;
   float: left;
-  width: 21%;
-  overflow-y: scroll;
-
-
+  width: 22%;
   justify-content: center;
 }
 .astvinayaklink .nav-link {
@@ -428,26 +367,8 @@ padding-right: 25%;
   transform: rotateY(-20deg);
   color: #4ec16f;
 }
-/* --------------------------Ashtavinay location s */
-.ifrm{
- 
-  background-color:rgb(253, 253, 253);
-  float: right;
-  width: 15%;
-  length : 900px;
-  padding-right: 100px;
-  height: 1280px;
-   
-}
-.ifrm iframe {
- 
- padding-top: 100%;
- width:130% ;
-}
-.locdetils {
-  background-color: rgb(242, 248, 247);
-  width:130% ;
-}
+
+/* -----------Aarati header */
 .Aartiheader{
   color:rgb(208, 34, 48);
 background-color: white;
@@ -460,55 +381,3 @@ text-align: center;
 .leftbell{
  margin-left: 10px;
 }
-/* /* ---------------------search butoon
-.nav-links-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.search-container {
-  display: flex;
-  align-items: center;
-
-}
-
-.search-input {
-  
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  margin-right: 5px;
-}
-
-.search-button {
-
-  background-color: #93e695;
-  color: rgb(248, 243, 243);
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-.nav-list {
-  list-style: none;
-  
-  text-align: left;
-  margin-right: 50px;
-  background-color: rgb(236, 245, 243);
-
-}
-
-.nav-item {
-  margin-bottom: 5px;
-}
-
-.nav-link {
-  text-decoration: none;
-  color: #333;
-  transition: color 0.3s ease;
-}
-
-.nav-link:hover {
-  color: #4caf50;
-} */
-

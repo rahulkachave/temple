@@ -1,9 +1,19 @@
 import React from 'react'
-
+import ganesha2 from './/../staic/ganesha2.jpg'
+import ganesha3 from './/../staic/ganesha3.jpg'
+import ganesha4 from './/../staic/ganesha4.jpg'
+import ganesha5 from './/../staic/ganesha5.jpg'
+import ImageSlider from '../components/ImageSlider'
 import { Link } from 'react-router-dom'
-import ganesha2 from './/../staic/Moreshawarganapati.webp'
+
 import { useTranslation } from 'react-i18next'
 const Lenyadri = () => {
+  const slides =[
+    { src: ganesha2, alt: 'ganesha2' },
+ { src: ganesha3, alt: 'Durga 8' },
+ { src: ganesha4, alt: 'ganesha4 ' },
+ { src: ganesha5, alt: 'ganesha5' }
+];
   const {t}=useTranslation();
   return (
     <div>
@@ -32,11 +42,19 @@ const Lenyadri = () => {
        loading="lazy"
        referrerpolicy="no-referrer-when-downgrade">
 </iframe>
-<p>Location </p>
-<p>near to mahad templ:- 20km</p>
+<div className='locdetils'>
+
+<p>Location:-  Morgaon :- Moreshawarganapati</p>
+<p><b>Darshan Timming :-</b>5am - 10:30pm</p>
+<p><b>near to good place:-</b><br/>Raigad Ford 45km,<br/>Diveagar Beach 60km ,<br/>mahabaleshwar 100km </p>
+</div>
 </div>
    
-    <div className='Templeimg' > < img src={ganesha2} alt="Ganesha 2"/></div>
+<div className='Templeimg'> 
+    <div className='imgcon'>
+        <ImageSlider slides={slides} />
+    </div>
+    </div>
     <article className='Temple'> 
 
       

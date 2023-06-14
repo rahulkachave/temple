@@ -1,13 +1,22 @@
 import React from 'react'
-
+import ganesha2 from './/../staic/ganesha2.jpg'
+import ganesha3 from './/../staic/ganesha3.jpg'
+import ganesha4 from './/../staic/ganesha4.jpg'
+import ganesha5 from './/../staic/ganesha5.jpg'
+import ImageSlider from '../components/ImageSlider'
 import MHTemples from '../components/MHTemples'
 import { Link } from 'react-router-dom'
-import ganesha2 from './/../staic/Moreshawarganapati.webp'
+
 
 
 
 const Dagadusheth = () => {
-  
+  const slides =[
+    { src: ganesha5, alt: 'ganesha5' },
+    { src: ganesha2, alt: 'ganesha2' },
+ { src: ganesha3, alt: 'Durga 8' },
+ { src: ganesha4, alt: 'ganesha4 ' }
+];
   return (
     <div>    
      <header className='header'><div className='marquee'><div> Maharashtra temple :- Dagadusheth Temple</div></div></header>
@@ -29,13 +38,23 @@ const Dagadusheth = () => {
        loading="lazy"
        referrerpolicy="no-referrer-when-downgrade">
          </iframe>
-         <p>Location </p>
-<p>near to mahad templ:- 20km</p>
+         <div className='locdetils'>
 
-      </div>
+<p>Location:-  Morgaon :- Moreshawarganapati</p>
+<p><b>Darshan Timming :-</b>5am - 10:30pm</p>
+<p><b>near to good place:-</b><br/>Raigad Ford 45km,<br/>Diveagar Beach 60km ,<br/>mahabaleshwar 100km </p>
+</div>
+</div>
    
 
-    <div className='Templeimg' > < img src={ganesha2} alt="Ganesha 2"/></div>
+   
+   
+
+      <div className='Templeimg'> 
+    <div className='imgcon'>
+        <ImageSlider slides={slides} />
+    </div>
+    </div>
     <article className='Temple'>
 
         <h2 > Dagadusheth halwai ganapati pune</h2>

@@ -1,8 +1,22 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import ganesha2 from './/../staic/ganesha2.jpg'
+import ganesha3 from './/../staic/ganesha3.jpg'
+import ganesha4 from './/../staic/ganesha4.jpg'
+import ganesha5 from './/../staic/ganesha5.jpg'
+import D7  from './/../staic/Du7.webp'
+import D8 from './/../staic/Du8.png'
+import ImageSlider from '../components/ImageSlider'
 import { useTranslation } from 'react-i18next'
 const PaliTemple = () => {
+  const slides =[
+    { src: D8, alt: 'Durga 8' },
+    { src: D7, alt: 'Durga 7' },
+    { src: ganesha2, alt: 'ganesha2' },
+ { src: ganesha3, alt: 'Durga 8' },
+ { src: ganesha4, alt: 'ganesha4 ' },
+ { src: ganesha5, alt: 'ganesha5' }
+];
   const {t}= useTranslation();
   return (
 
@@ -10,6 +24,9 @@ const PaliTemple = () => {
     <header className='header' >
           <div className='marquee'>
             <div><b>Ashtavinayak temples :-</b> Ballaleshawar- Pali</div></div> </header>
+           
+           
+           
             <div className='astvinayaklink'>
             <Link className="nav-link"  to ={'/Details'}><h4>{t('navlink.Details')}</h4></Link>
 <Link className="nav-link" to={'/Morgaon'}><h4>{t('navlink.FirstAshtavinayak')}</h4></Link>
@@ -24,20 +41,25 @@ const PaliTemple = () => {
     </div>
     <div className='ifrm'>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.797444521813!2d73.2194061759856!3d18.538053368638455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be81145e4ad2e8f%3A0x1575ecac1b23ac27!2sPali%20ballaleshwar%20ganapati!5e0!3m2!1sen!2sin!4v1685013964299!5m2!1sen!2sin" 
-      // width="250"
-      // height="400"
+      
        style={{ border: '0' }}
        allowfullscreen=""
        loading="lazy"
        referrerpolicy="no-referrer-when-downgrade">
 </iframe>
 <div className='locdetils'>
-<p>Location:- ganapati pule</p>
+<p>Location:- ganapati Morgaon</p>
 <p><b>Darshan Timming :-</b>5am - 10:30pm</p>
 <p><b>near to good place:-</b><br/>Raigad Ford 45km,<br/>Diveagar Beach 60km ,<br/>mahabaleshwar 100km </p></div>
 </div>
    
-    <div className='Templeimg'> < img className='tempimg' src={ganesha2} alt="Ganesha 2"/></div>
+  
+    <div className='Templeimg'> 
+    <div className='imgcon'>
+        <ImageSlider slides={slides} />
+    </div>
+   
+    </div>
     
     <article className='Temple'> 
     
