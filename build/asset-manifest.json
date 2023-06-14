@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/temple/static/css/main.9b26f506.css",
-    "main.js": "/temple/static/js/main.c1408cd5.js",
+    "main.css": "/temple/static/css/main.b760cde5.css",
+    "main.js": "/temple/static/js/main.3cd8e8d4.js",
     "static/js/787.ac4f228c.chunk.js": "/temple/static/js/787.ac4f228c.chunk.js",
     "static/media/ganesha6.jpg": "/temple/static/media/ganesha6.cf8449811c34dee86da1.jpg",
     "static/media/ganesha5.jpg": "/temple/static/media/ganesha5.4e04928f87a9ba3a60ab.jpg",
@@ -22,12 +22,12 @@
     "static/media/Du6.jpg": "/temple/static/media/Du6.cf561c0b056f84f6f105.jpg",
     "static/media/bells.gif": "/temple/static/media/bells.9415734066267c10dac6.gif",
     "index.html": "/temple/index.html",
-    "main.9b26f506.css.map": "/temple/static/css/main.9b26f506.css.map",
-    "main.c1408cd5.js.map": "/temple/static/js/main.c1408cd5.js.map",
+    "main.b760cde5.css.map": "/temple/static/css/main.b760cde5.css.map",
+    "main.3cd8e8d4.js.map": "/temple/static/js/main.3cd8e8d4.js.map",
     "787.ac4f228c.chunk.js.map": "/temple/static/js/787.ac4f228c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9b26f506.css",
-    "static/js/main.c1408cd5.js"
+    "static/css/main.b760cde5.css",
+    "static/js/main.3cd8e8d4.js"
   ]
 }
