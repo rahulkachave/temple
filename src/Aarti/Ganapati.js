@@ -55,11 +55,11 @@ const Ganapati = () => {
     <div>
     <div className='photos'>
    
-    <div className="photo-item"> < img src={ganesha2} alt="Ganesha 2"/></div>
-    <div className="photo-item"> < img src={ganesha3} alt="Ganesha 3"/></div>
-  <div className="photo-item">  < img src={ganesha4} alt="Ganesha 4"/></div>
  <div className="photo-item">   < img src={ganesha5} alt="Ganesha 5"/></div>
+  <div className="photo-item">  < img src={ganesha4} alt="Ganesha 4"/></div>
+    <div className="photo-item"> < img src={ganesha3} alt="Ganesha 3"/></div>
  <div className="photo-item">   < img src={ganesha6} alt="Ganesha 6"/></div>
+    <div className="photo-item"> < img src={ganesha2} alt="Ganesha 2"/></div>
  <div className="photo-item">   < img src={ganesha7} alt="Ganesha 7"/></div>
     </div></div>
   </div>

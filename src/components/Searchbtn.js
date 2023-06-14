@@ -18,18 +18,18 @@ function Searchbtn() {
 
 					// Items is the list of suggestions displayed while the user type
 					items={[
-						{path: '/Ganapati', label: 'Ganapatiaarati' },
-                        { path: '/Morgaon', label: 'FirstAshtavinayak' },
-                   { path: '/SIddhivinayak', label: 'SecondAshtavinayak' },
-						{ label: 'C' },
-						{ label: 'Python' },
-						{ label: 'JavaScript' },
-						{ label: 'Julia' },
-						{ label: 'Java' },
-						{ label: 'Objective C' },
-						{ label: 'C#' },
-						{ label: 'Dart' },
-						{ label: 'Perl' }
+						{path: '/Ganapati', label: 'Ganapati aarati' },
+                        { path: '/Morgaon', label: 'First Ashtavinayak' },
+                   { path: '/Details', label: 'Aarati sangrah' },
+				   { path: '/SIddhivinayak', label: 'Second Ashtavinayak' },
+				   { path: '/PaliTemple', label: 'Pali Temple' },
+				   { path: '/Mahad', label: 'Mahad' },
+				   { path: '/Ozar', label: 'Ozar' },
+				   { path: '/Ranjangaon', label: 'Ranjangaon' },
+				   { path: '/Lenyadri', label: 'Lenyadri' },
+				   { path: '/Theur', label: 'Theur' },
+				   { path: '/Ashtavinayak', label: 'Ashtavinayak' },
+						
 					]}
 
 					// To handle the case that when the user type, suggested values should be independent of upper or lower case
