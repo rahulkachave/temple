@@ -460,7 +460,7 @@ text-align: center;
 .leftbell{
  margin-left: 10px;
 }
-/* ---------------------search butoon
+/* /* ---------------------search butoon
 .nav-links-container {
   display: flex;
   flex-direction: column;
@@ -510,5 +510,5 @@ text-align: center;
 
 .nav-link:hover {
   color: #4caf50;
-}
+} */
 
