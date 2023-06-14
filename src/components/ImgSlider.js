@@ -5,7 +5,6 @@ import D9  from './/../staic/Du9.jpg'
 import D10  from './/../staic/Du10.webp'
 import ImageSlider from './ImageSlider'
 import '../css/ImgSlider.css'
-
 const ImgSlider = () => {
 const slides =[
        { src: D7, alt: 'Durga 7' },
