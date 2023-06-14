@@ -58,6 +58,7 @@
 import React, { useState } from 'react'
 import Autocomplete from 'react-autocomplete'
 import { NavLink } from 'react-router-dom';
+import '../css/searchbtn.css';
 function Searchbtn() {
 
 	// Defining a state named value, which
@@ -67,10 +68,7 @@ function Searchbtn() {
 	const [value, setValue] = useState('');
 
 	return (
-		<div style={{
-			display: 'flex', flexDirection: 'column',
-			alignItems: 'center'
-		}}>
+		<div className='searchbtn-container'>
 			<div>
 				
 			</div>
@@ -98,9 +96,7 @@ function Searchbtn() {
 					// the user type, suggested
 					// values should be independent
 					// of upper or lower case
-					shouldItemRender={(item, value
-					) => item.label.toLowerCase()
-						.indexOf(value.toLowerCase()) > -1}
+					shouldItemRender={(item, value) => item.label.toLowerCase().indexOf(value.toLowerCase()) > -1}
 					getItemValue={item => item.label}
                     renderItem={(item, isHighlighted) => (
                         <div style={{ background: isHighlighted ? '#bcf5bc' : 'white' }} key={item.label}>
@@ -121,11 +117,7 @@ function Searchbtn() {
 
 					// Added style in Autocomplete component
 					inputProps={{
-						style: {
-							width: '300px', height: '20px',
-							background: '#e4f3f7',
-							border: '2px outset lightgray'
-						},
+						className: 'autocomplete-container',
 						placeholder: 'Search language'
 					}}
 				/>

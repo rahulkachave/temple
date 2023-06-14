@@ -33,6 +33,7 @@ import Ram from './Godsfolder/Ram';
 import { useState } from 'react';
 import MyComponent from './Localtranslation/MyComponent';
 import Java from './components/Java';
+import Searchbtn from './components/Searchbtn';
 
 function App() {
   const [userPreference, setUserPreference] = useState('light'); // Assuming 'dark' is the default preference
@@ -45,7 +46,8 @@ function App() {
     <Router>
  
     <div className='welcome'>wel-come
-  <Java/>
+  {/* <Java/> */}
+  <Searchbtn/>
     <MyComponent/></div>
     <div className={`App ${userPreference}`}>
     <button onClick={handleToggle} className={`toggle-button ${userPreference}`}>
