@@ -30,45 +30,21 @@ import Aarati2 from './Aarti/Aarati2';
 import MHTemples from './components/MHTemples';
 import Ashtavinayak from './components/Ashtavinayak';
 import Ram from './Godsfolder/Ram';
-import { useState } from 'react';
+
 import MyComponent from './Localtranslation/MyComponent';
 import Java from './components/Java';
 import Searchbtn from './components/Searchbtn';
+import Theme from './components/Theme';
+import './css/Theme.css'
 
 function App() {
-  const [userPreference, setUserPreference] = useState('light'); // Assuming 'dark' is the default preference
 
-  const handleToggle = () => {
-    setUserPreference((prevState)=>(prevState === 'dark'? 'light':'dark'));
-  };
   return (
     <div>
+    
     <Router>
- 
-    <div className='welcome'>wel-come
-  {/* <Java/> */}
-  <Searchbtn/>
-    <MyComponent/></div>
-    <div className={`App ${userPreference}`}>
-    <button onClick={handleToggle} className={`toggle-button ${userPreference}`}>
-      {userPreference === 'dark'? 'dark':'light'}Color </button>
-      
-{/* <ul> */}
-  {/* <li> */}
-    {/* <select className='lang'>
-      <option value={"en"}>English</option>
-      <option value={"fr"}>Francais</option>
-      <option value={"es"}>Espa</option>
-    </select> */}
-  {/* </li> */}
-{/* </ul> */}
-
-
-
-     
-     
     <Main/>
-   
+
            <Routes>
            <Route path="/">
           <Route  path="/Home" element={<Home />}/>
@@ -118,7 +94,6 @@ function App() {
        
       <Footer/>
    
-    </div>
     </Router>
     </div>
   );

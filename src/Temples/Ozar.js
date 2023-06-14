@@ -1,7 +1,7 @@
 
 import React from 'react'
 import { Link } from 'react-router-dom'
-import ganesha2 from './/../staic/Moreshawarganapati.webp'
+import ganesha2 from './/../staic/ganesha2.jpg'
 import { useTranslation } from 'react-i18next'
 const Ozar = () => {
   const {t}=useTranslation();
@@ -24,9 +24,9 @@ const Ozar = () => {
     </div>
   
    
+    <div className='Templeimg' > < img src={ganesha2} alt="Ganesha 2"/></div>
     <article className='Temple'> 
     
-    <div className='Templeimg' > < img src={ganesha2} alt="Ganesha 2"/></div>
       
         <h2 className='h2headingtag'>Vighneshwar Temple </h2>
         <p>The Sri Mayureshwar Temple of Morgaon is one of the eight major temples of Ashtavinayaka. It is said that the name Morgaon is also the story of the peacock</p>

@@ -35,9 +35,9 @@ const Dagadusheth = () => {
       </div>
    
 
+    <div className='Templeimg' > < img src={ganesha2} alt="Ganesha 2"/></div>
     <article className='Temple'>
 
-    <div className='Templeimg' > < img src={ganesha2} alt="Ganesha 2"/></div>
         <h2 > Dagadusheth halwai ganapati pune</h2>
         <p>Srimanta Dagdusheth Halwai is considered to be the holy place of Lord Ganesha for devotees all over Pune.</p>
         <p>In the list of maharatras all these names, the name of Ganpati, Dagdusheth Halwai in Pune is taken first.</p>

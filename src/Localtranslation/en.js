@@ -29,7 +29,7 @@ export const translationEN={
      ThirdAshtavinayak :"Third Ashtavinayak :-Pali",
      FourAshtavinayak:"Fourth Ashtavinayak:-Mahad",
      FiveAshtavinayak :"Fifth Ashtavinayak  :- Ozar",
-     SixAshtavinayak :"Sixth Ashtavinayak :- Rangangaon ",
+     SixAshtavinayak :"Sixth Ashtavinayak :- Ranjangaon ",
      SevenAshtavinayak :"Seventh Ashtavinayak :-Lenyadri ",
      EightAshtavinayak :" Eight Ashtavinayak :- Theur",
      Ashtavinayakpage :"Ashtavinayak main page "
