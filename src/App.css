@@ -117,7 +117,7 @@ flex-wrap: wrap;
 .main{
   display:flex;
   justify-content: space-between;
-
+font-size: 16px;
   padding: 40px;
   background-color: rgb(227, 236, 200);
 
@@ -354,7 +354,7 @@ padding-bottom: 20px;
 .astvinayaklink .nav-link h4 {
   border-radius: 30px;
   text-align: center;
-  font-size: 18px;
+  font-size: 16px;
   background-color: rgb(238, 226, 203);
   
  color: rgb(43, 41, 41);
