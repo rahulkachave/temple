@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import homes from "../home.json"
-import AstvinayakComponents from './AstvinayakComponents'
+// import homes from "../home.json"
+// import AstvinayakComponents from './AstvinayakComponents'
 import { useTranslation } from 'react-i18next'
 
 

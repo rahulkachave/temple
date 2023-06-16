@@ -1,3 +1,4 @@
+
 .App {
   text-align: justify;
   background-color: whitesmoke;
@@ -37,16 +38,16 @@
   color: #333;
 }
 
-.toggle-button:hover {
+/* .toggle-button:hover {
   background-color: #777;
   color: #fff;
-}
+} */
 .lang{
   width: 120%;
   height: 20px;
   float: right;
   background-color: #e3b8b0;
-  display: inline-block;
+  /* display: inline-block; */
 }
 /* .about{
   background-color: white;
@@ -67,37 +68,7 @@ text-align: center;
 
 }
 
- /* .btnnext{
-  background-color: rgb(201, 227, 10);
-  border-color: crimson;
-  padding: 8px;
-  width: 100px;
- }
- .btnback{
-  float:right;
-  background-color: rgb(43, 227, 10);
-  border-color: crimson;
-  padding: 8px;
-  width: 100px;
- } */
-/* .artical{
-   float: left; 
-   padding: 20px; 
-  width:1250px;  
-  background-color: rgb(222, 234, 245);
-}
-.artical2{
-  float: left; 
-   padding: 20px; 
-  width:30%; 
-  background-color: rgb(240, 240, 227);
-}
-.articaldiv{
-  float: left; 
-  padding: 20px; 
- width:400px;  
- background-color: rgb(168, 51, 141);
-} */
+ 
 /* ------------------------------Footer--------------------------- */
 .footer{
 position: fixed;
@@ -127,7 +98,7 @@ font-size: 16px;
   padding: 20px; 
   text-align: center;
   width:30%; 
-  background-color: rgb(240, 172, 157);
+  background-color: rgb(238, 149, 129);
   color: rgb(5, 6, 4);
 
 }
@@ -145,10 +116,10 @@ font-size: 16px;
 }
 
 /* -------------------------------- */
-.page{
+/* .page{
   height: 70vh;
   display: flex;
-}
+} */
 /* ----------------------------------Aarti left side  */
 .aaratileft{
   background-color: rgb(237, 221, 190);
@@ -293,7 +264,7 @@ padding-bottom: 50px;
     } 
     /* =------------------------------------Styles for Ashtavinayak------------------------------------------ */
     /* Styles for Ashtavinayak */
-  .don{
+  /* .don{
    
     padding-top: 20px;
 padding-bottom: 20px;
@@ -328,7 +299,7 @@ padding-bottom: 20px;
 .dick img{
   height: 280px;
   width: 320px;
-}
+} */
 /* ----------------------------------------**---Ashatavinayak css---------------------- */
 
 

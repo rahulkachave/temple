@@ -1,9 +1,9 @@
 import React from 'react'
 
-import homes from "../home.json"
+// import homes from "../home.json"
 
 const Home = () => {
-  console.log(homes);
+  // console.log(homes);
   return (
     <div>
      <header className='header' >

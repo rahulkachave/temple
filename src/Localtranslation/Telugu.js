@@ -9,7 +9,7 @@ export const translationTelugu={
     temple: "ఇండియన్ టెంపుల్",
     godstemples:"దేవుళ్ళు మరియు దేవాలయాలు ",
     Details:"హారతి సంగ్రహం",
-    students:"విద్యార్థులు",
+   TopTemple:"టాప్ టెంపుల్",
 
 mhtemple:"మహారాష్ట్ర ఆలయం",
 Ganapati:"గణపతి హారతి",

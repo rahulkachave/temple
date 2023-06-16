@@ -9,7 +9,7 @@ export const translationEN={
       temple:"Indian Temples",
       godstemples: "Gods & temples ",
       Details:"Aarati sangrah",
-      students:"Students",
+      TopTemple:"TopTemple",
 
       // --------------------Aarati sangrah--------------------
       mhtemple:"MHTemple",

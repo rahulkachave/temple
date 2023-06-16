@@ -4,7 +4,7 @@ import Gods from './components/Gods';
 import Details from './components/Details';
 import Home from './components/Home';
 import Footer from './components/Footer'; //this is for a components file export import
-import Student from './components/Student';
+
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Vishanu from './Godsfolder/Vishanu';
 import Error from './components/Error';
@@ -28,6 +28,7 @@ import MHTemples from './components/MHTemples';
 import Ashtavinayak from './components/Ashtavinayak';
 import Ram from './Godsfolder/Ram';
 import './css/Theme.css';
+import TopTemple from './TopTemple';
 
 function App() {
 
@@ -73,7 +74,7 @@ function App() {
           <Route path ='/Saibaba' element={<Saibaba/>}/>
 
 
-          <Route path='/student' element={<Student/>}/> 
+          <Route path='/TopTemple' element={<TopTemple/>}/> 
           <Route path ='*' element={<Error/>}/>
 
 

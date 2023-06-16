@@ -11,7 +11,7 @@ export const translationHI ={
     temple: "भारतीय मंदिर",
     godstemples:"देवता और मंदिर ",
     Details:"आरती संग्रह",
-    students:"छात्रों",
+   TopTemple:"टॉप  मंदिर",
     // navlink aarti snagrah-----------------------------
     mhtemple:"महाराष्ट्र मंदिर",
     Ganapati:"गणपति आरती",

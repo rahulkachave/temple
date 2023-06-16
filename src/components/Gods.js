@@ -1,31 +1,30 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import Ram from '../Godsfolder/Ram'
-import Searchbtn from './Searchbtn'
-
-const Contact = () => {
+import GodsJ from '../GodsJ.json'
+import GodsComp from './GodsComp'
+import '../css/Gods.css'
+const Gods = () => {
   return (
-   
-    <div >
+    <div>
+       {
+     GodsJ.map((Element ,Index)=>{
+      return(
+<GodsComp 
 
+key ={Index}
 
-    
-    <div className='teamjava'>
+      img={Element.img}
+      name={Element.name}
+      city={Element.city}
+      url={Element.url}
+/>
+      )
       
-<Link to={'/Ram'}> <h4> Shree Ram</h4></Link>
-
-</div>
-<div>
-<article className='mainTemplet'>
       
-<Searchbtn/>
+      }) 
+    }
+    </div>
 
-
-
-</article>
-</div></div>
   )
-
 }
 
-export default Contact
+export default Gods

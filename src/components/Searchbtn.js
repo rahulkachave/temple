@@ -18,8 +18,8 @@ function Searchbtn() {
 
 					// Items is the list of suggestions displayed while the user type
 					items={[
-						{path: '/Ganapati', label: 'Ganapati aarati' },
-                        { path: '/Morgaon', label: 'First Ashtavinayak' },
+					{path: '/Ganapati', label: 'Ganapati aarati' },
+                 { path: '/Morgaon', label: 'First Ashtavinayak' },
                    { path: '/Details', label: 'Aarati sangrah' },
 				   { path: '/SIddhivinayak', label: 'Second Ashtavinayak' },
 				   { path: '/PaliTemple', label: 'Pali Temple' },

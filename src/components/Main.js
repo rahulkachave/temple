@@ -24,7 +24,7 @@ const Main = () => {
     <NavLink style={navlinkstyle} to={'/Temple'}>{t('navlink.temple')}</NavLink>
     <NavLink style={navlinkstyle} to={'/Gods'}>{t('navlink.godstemples')}</NavLink>
     <NavLink style={navlinkstyle} to={'/details'}>{t('navlink.Details')}</NavLink>
-    <NavLink style={navlinkstyle} to={'/students'}>{t('navlink.students')}</NavLink>
+    <NavLink style={navlinkstyle} to={'/TopTemple'}>{t('navlink.TopTemple')}</NavLink>
     <Searchbtn/>
     <Theme/>
     <MyComponent/>
