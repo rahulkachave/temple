@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/temple/static/css/main.b0f24124.css",
+    "main.js": "/temple/static/js/main.fe4fe86c.js",
+    "static/js/787.ac4f228c.chunk.js": "/temple/static/js/787.ac4f228c.chunk.js",
+    "static/media/ganesha6.jpg": "/temple/static/media/ganesha6.cf8449811c34dee86da1.jpg",
+    "static/media/ganesha5.jpg": "/temple/static/media/ganesha5.4e04928f87a9ba3a60ab.jpg",
+    "static/media/ganesha4.jpg": "/temple/static/media/ganesha4.84c3231437571818fa90.jpg",
+    "static/media/ganesha2.jpg": "/temple/static/media/ganesha2.d6a3f52808ada08cf435.jpg",
+    "static/media/ganesha7.jpg": "/temple/static/media/ganesha7.1d3459ebc4e93d4f01f4.jpg",
+    "static/media/ganesha3.jpg": "/temple/static/media/ganesha3.ad39bf5972a5daccdf8b.jpg",
+    "static/media/Du8.png": "/temple/static/media/Du8.c45f69b712799188e3bf.png",
+    "static/media/Du9.jpg": "/temple/static/media/Du9.0599e2ec3a2538f0ab85.jpg",
+    "static/media/Du1.jpg": "/temple/static/media/Du1.f820dfc1ddd8e3c98cbd.jpg",
+    "static/media/Du3.jpg": "/temple/static/media/Du3.3a7aa443dba2f321608e.jpg",
+    "static/media/ga1.mp3": "/temple/static/media/ga1.0159f4f287c0e00711a3.mp3",
+    "static/media/Du7.webp": "/temple/static/media/Du7.d1077fd030bfac8d08eb.webp",
+    "static/media/Du.jpg": "/temple/static/media/Du.c1bd449bc2c2010f991b.jpg",
+    "static/media/Du4.jpg": "/temple/static/media/Du4.d4185385aa293f8ebad4.jpg",
+    "static/media/Du5.jpg": "/temple/static/media/Du5.2e8806b2c4e1b3b019c1.jpg",
+    "static/media/Du10.webp": "/temple/static/media/Du10.0dd31db17fb53809ec4e.webp",
+    "static/media/Du6.jpg": "/temple/static/media/Du6.cf561c0b056f84f6f105.jpg",
+    "static/media/bells.gif": "/temple/static/media/bells.9415734066267c10dac6.gif",
+    "index.html": "/temple/index.html",
+    "main.b0f24124.css.map": "/temple/static/css/main.b0f24124.css.map",
+    "main.fe4fe86c.js.map": "/temple/static/js/main.fe4fe86c.js.map",
+    "787.ac4f228c.chunk.js.map": "/temple/static/js/787.ac4f228c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b0f24124.css",
+    "static/js/main.fe4fe86c.js"
+  ]
+}
