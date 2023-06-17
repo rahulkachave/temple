@@ -4,20 +4,19 @@ import React from 'react'
 const GodsComp = (props) => {
     
   return (
-    <div >
+    <div className='dff' >
       
            
-<div >
-    <div className='ast' >
+    <div className='gfirst' >
     <div className='data'>
 <div className='dick'><img src ={props.img} alt=""/></div>
-<div><p><b>name:</b>{props.name}</p></div>
-<div><p><b>city:</b>{props.city}</p></div>
-<div><a href ={props.url}>go to Temple info  </a></div>
-    </div></div>
+<div className='gname'><p><b>{props.name}</b></p></div>
+
+  <button className='gbtn'><a href ={props.url}>read more  </a></button></div>
+
+    </div>
     
-    </div>
-    </div>
+      </div>
   )
 }
 

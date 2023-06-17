@@ -28,7 +28,7 @@ import MHTemples from './components/MHTemples';
 import Ashtavinayak from './components/Ashtavinayak';
 import Ram from './Godsfolder/Ram';
 import './css/Theme.css';
-import TopTemple from './TopTemple';
+import TopTemple from './Temples/TopTemple';
 
 function App() {
 

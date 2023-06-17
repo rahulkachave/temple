@@ -4,19 +4,19 @@ import GodsComp from './GodsComp'
 import '../css/Gods.css'
 const Gods = () => {
   return (
-    <div>
+    <div className='Gmain'>
        {
      GodsJ.map((Element ,Index)=>{
       return(
+        <div className='Gmain'>
 <GodsComp 
 
 key ={Index}
 
       img={Element.img}
       name={Element.name}
-      city={Element.city}
       url={Element.url}
-/>
+/></div>
       )
       
       
