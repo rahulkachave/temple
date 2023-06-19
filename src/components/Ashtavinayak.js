@@ -24,24 +24,7 @@ const Ashtavinayak = () => {
 <Link className="nav-link" to ={'/Theur'}><h4>{t('navlink.EightAshtavinayak')}</h4></Link>
 <Link className="nav-link"  to ={'/Ashtavinayak'}><h4> {t('navlink.Ashtavinayakpage')} </h4></Link>
     </div>
-    <div>temple</div>
-{/* 
-    <div className='don'>
-{
-  homes.map((Element,index)=>{
-    return(
-      <AstvinayakComponents
-      key={index}
-      img={Element.img}
-      name={Element.name}
-      city={Element.city}
-      url={Element.url}
-         />
-    )
-  })
-}
-</div>
- */}
+    <div >temple of the Ashtavinayak</div>
 
     </div>
   )

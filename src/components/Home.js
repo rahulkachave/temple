@@ -5,11 +5,11 @@ import React from 'react'
 const Home = () => {
   // console.log(homes);
   return (
-    <div>
+    <div >
      <header className='header' >
           <div className='marquee'>
-            <div>Download the photos</div></div> </header>
-
+            <div >Download the photos</div></div> </header>
+<div className='Hight'>main page</div>
 <div>
 
 

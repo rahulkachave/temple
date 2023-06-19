@@ -13,7 +13,7 @@ const Details = () => {
 
   return (
     <div>
-      <header className='header'><div className='marquee'><div> Maharashtriya- Aarati's</div></div></header>
+      <header className='header'><div className='marquee'><div> Maharashtra - Aarati's</div></div></header>
      
       
       <div className='astvinayaklink'>
@@ -25,7 +25,6 @@ const Details = () => {
       <Link className="nav-link" to ={'/Durga'}><h4>{t('navlink.Durga')}</h4></Link>
       <Link className="nav-link" to ={'/Mahalaxmi'}><h4>{t('navlink.Mahalaxmi')}</h4></Link>
       <Link className="nav-link" to ={'/Saibaba'}><h4>{t('navlink.Saibaba')}</h4></Link> 
-
       </div>
 
   

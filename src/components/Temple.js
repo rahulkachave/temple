@@ -1,6 +1,8 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
+import Footer from './Footer';
+import '../css/Footer.css'
 
 
 const Temple = () => {
@@ -12,19 +14,11 @@ const Temple = () => {
            
            <div className='astvinayaklink' >
            <Link  className="nav-link" to={'/MHTemples'}><h4>{t('navlink.MaharashtraTemples')}</h4></Link>
-{/* <Link to={'/Dagadusheth'}><h2>Dagadusheth</h2></Link>
-<Link to={'/SIddhivinayak'}><h2>SIddhivinayak</h2></Link>
-<Link to={'/PaliTemple'}><h2>Paliganesh</h2></Link>
-<Link to={'/Mahad'}><h2>Mahad</h2></Link>
-<Link to={'/Ozar'}><h2>Ozar</h2></Link> 
-<Link to={'/Ranjangaon'}><h2>Rangangaon</h2></Link>
-<Link to={'/Lenyadri'}><h2>Lenyadri</h2></Link>
-<Link to ={'/Theur'}><h2>Theur</h2></Link>
-<Link to={'/Morgaon'}><h2>Morgaon</h2></Link> */}
+
 
 
 </div>
-   
+
     <article className='mainTemplet'>
         <p>  the <b>India </b>is rich in history and home to several ancient and historically significant temples. Here are some temples in Maharashtra with a brief overview of their history:
 

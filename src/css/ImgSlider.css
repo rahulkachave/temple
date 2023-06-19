@@ -57,15 +57,15 @@
     float: right;
     width: 20%;
     padding-right: 100px;
-    height: 1280px;
+    height: 1340px;
     align-items: center;
      
   }
   .ifrm iframe {
-   padding-left: 10%;
+   padding-left: 20%;
    padding-right: 8%;
    padding-top: 60%;
-   width:110% ;
+   width:80% ;
    height: 35%;
   }
   .locdetils {

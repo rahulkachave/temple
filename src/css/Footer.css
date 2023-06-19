@@ -1,0 +1,223 @@
+.footer1{
+
+}
+
+.footer{
+ width: 100%;
+background-color: rgb(142, 140, 140);
+color: white;
+text-align: center;
+display:flex;
+justify-content: space-around;
+flex-wrap: wrap;
+padding-top: 10px;
+padding-bottom: 50px;
+}
+.headerleft{
+  /* background-color: rgb(146, 137, 118); */
+ float: left;
+ width: 45%;
+ justify-content: center;
+}
+
+
+
+.headerright{
+  float: right;
+  width: 20%;
+  
+}
+.whatsapp-img:hover {
+  /* box-shadow: 0px 0px 50px white; */
+  transform: scale(1.1);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header-wallpaper-div {
+    height: 27vh;
+    margin-top: 0;
+  
+  }
+  
+  .header-wallpaper-div img {
+    object-fit: cover;
+    width: 100%;
+    height: 27.1vh;
+  }
+  
+  
+  /* ____________________________________________about container________________________________ */
+  
+  .about-container {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+  }
+  
+  /* ____________________________________________paragraph container________________________________ */
+  
+  .about-discription {
+    font-family: 'EB Garamond', serif;
+    line-height: 2.5vh;
+    text-align: center;
+    font-size: 2vh;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  
+  /* ____________________________________________h1 about________________________________ */
+  
+  .h1-about {
+    text-align: center !important;
+    font-family: 'EB Garamond', serif;
+  }
+  
+  /* ____________________________________________fotter container________________________________ */
+  
+  .footer-container {
+    /* position: absolute; */
+    top: 75vh;
+    right: 0vh;
+    left: 0vh;
+    border-top: 0.1vh solid rgb(225, 214, 214);
+  }
+  
+  
+  .footer-container a {
+    text-decoration: none;
+    text-align: center;
+    text-align: center;
+    color: black;
+  }
+  .text-white.me-4 img {
+    width: 3vh;
+  }
+  
+  /* ____________________________________________fotter list________________________________ */
+  
+  .footer-list {
+    margin-left: 60%;
+    list-style: none;
+    display: flex;
+  }
+  
+  
+  /* ____________________________________________address________________________________ */
+  .address a:hover {
+    text-align: justify;
+    color: white;
+  }
+  
+  
+  /* ____________________________________________usefull link________________________________ */
+  
+  .useful-links li {
+    /* margin-left: 5vh;*/
+    text-align: center;
+  }
+  
+  /* ____________________________________________contact info________________________________ */
+  
+  .contact-info {
+    margin-left: 3vh;
+  }
+  
+  .contact-info li {
+    margin-top: 0.9vh;
+  }
+  
+  .contact-info a:hover {
+    color: aliceblue;
+  }
+  
+ 
+  
+  .contact-info img {
+    width: 3.5vh;
+  }
+  
+  /* ____________________________________________copy right________________________________ */
+  .copyright {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  
+  .copyright a {
+    color: rgb(200, 216, 221);
+  }
+  
+  
+  
+  /* ____________________________________________About Fotter________________________________ */
+  
+  .text-center.text-lg-start.text-dark {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+  
+  }
+  
+  .d-flex.p-4 {
+    padding: 0.5vh !important;
+  }
+  
+  .links-section {
+    margin-top: -5vh;
+  }
+  
+  .links-section {
+    /* background-color: #eceff1; */
+  }
+  
+  .company-hr,
+  .products-hr,
+  .links-hr,
+  .contact-hr {
+    width: 60px;
+  }
+  
+  .text-center.p-3 {
+    background-color: rgb(39, 37, 37) !important;
+    color: #e9e8ec;
+  }
+  
+  .text-white.me-4 img {
+    width: 3vh;
+  }
+  
+  .container a {
+    text-decoration: none;
+  
+  }
+  .col-md-4 img{
+    width: 3.5vh;
+  }
+  
+  .container a:hover {
+    color: #e9e8ec !important;
+  }
+  .col-md-2 p:hover {
+  color: #e9e8ec;
+  }
+  .col-md-3 a{
+    color: black;
+  }
+  
