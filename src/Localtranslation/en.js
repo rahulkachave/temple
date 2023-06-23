@@ -5,7 +5,7 @@ export const translationEN={
      },
      navlink:{
       //----------------------------header--------------------------
-      home: "Home",
+      Login: "Login",
       temple:"Indian Temples",
       godstemples: "Gods & temples ",
       Details:"Aarati sangrah",
