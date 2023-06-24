@@ -29,6 +29,8 @@ import Ashtavinayak from './components/Ashtavinayak';
 import Ram from './Godsfolder/Ram';
 import './css/Theme.css';
 import TopTemple from './Temples/TopTemple';
+import Login from './SpringBackend/Login';
+import SignUp from './SpringBackend/SignUp';
 
 function App() {
 
@@ -41,8 +43,10 @@ function App() {
 
            <Routes>
            <Route path="/">
-          <Route  path="/Home" element={<Home />}/>
-            {/* <Route index element={<Home/>}/> */}
+            <Route  path="/Home" element={<Home />}/>
+            <Route  path='/Login' element={<Login/>}/>
+            <Route path='/SignUp' element={<SignUp/>}/>
+
             </Route>
           <Route path="/Temple" element={<Temple/>}/>
          <Route path='MHTemples' element={<MHTemples/>}/>
