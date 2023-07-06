@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import axios from 'axios';
+import axios from 'axios'
 import './Backendcss/SignUp.css'
 import { Link ,useNavigate} from 'react-router-dom';
 import Login from './Login';

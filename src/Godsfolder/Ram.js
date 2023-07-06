@@ -1,12 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-
+import ganesha5 from './/../staic/Green Watercolor Blank Paper A4 Document  (1).gif'
 
 
 const Ram = () => {
   return (
     <div >
       <header className='header'><div className='marquee'><div>Jay Shree Ram</div></div></header>
+      <img src='ganesha5' />
 <div style={{padding:"50px" ,paddingLeft:"20%", paddingRight:"20%", fontSize:'18px'}}>
      <h1> Jay shree ram</h1>
      <p > राम हा भगवान विष्णूचा अवतार आहे आणि त्याला श्री राम आणि
