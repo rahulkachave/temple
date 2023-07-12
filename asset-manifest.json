@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/temple/static/css/main.245f6231.css",
-    "main.js": "/temple/static/js/main.f8aee2a8.js",
+    "main.css": "/temple/static/css/main.7267ab79.css",
+    "main.js": "/temple/static/js/main.fbe611f1.js",
     "static/js/787.ac4f228c.chunk.js": "/temple/static/js/787.ac4f228c.chunk.js",
     "static/media/ganesha6.jpg": "/temple/static/media/ganesha6.cf8449811c34dee86da1.jpg",
     "static/media/ganesha5.jpg": "/temple/static/media/ganesha5.4e04928f87a9ba3a60ab.jpg",
+    "static/media/Green Watercolor Blank Paper A4 Document  (1).gif": "/temple/static/media/Green Watercolor Blank Paper A4 Document  (1).59424e3b23ba85e5cb27.gif",
     "static/media/ganesha4.jpg": "/temple/static/media/ganesha4.84c3231437571818fa90.jpg",
     "static/media/ganesha2.jpg": "/temple/static/media/ganesha2.d6a3f52808ada08cf435.jpg",
     "static/media/ganesha7.jpg": "/temple/static/media/ganesha7.1d3459ebc4e93d4f01f4.jpg",
@@ -21,12 +22,12 @@
     "static/media/Du6.jpg": "/temple/static/media/Du6.cf561c0b056f84f6f105.jpg",
     "static/media/bells.gif": "/temple/static/media/bells.9415734066267c10dac6.gif",
     "index.html": "/temple/index.html",
-    "main.245f6231.css.map": "/temple/static/css/main.245f6231.css.map",
-    "main.f8aee2a8.js.map": "/temple/static/js/main.f8aee2a8.js.map",
+    "main.7267ab79.css.map": "/temple/static/css/main.7267ab79.css.map",
+    "main.fbe611f1.js.map": "/temple/static/js/main.fbe611f1.js.map",
     "787.ac4f228c.chunk.js.map": "/temple/static/js/787.ac4f228c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.245f6231.css",
-    "static/js/main.f8aee2a8.js"
+    "static/css/main.7267ab79.css",
+    "static/js/main.fbe611f1.js"
   ]
 }
