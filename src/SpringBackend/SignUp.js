@@ -4,6 +4,7 @@ import './Backendcss/SignUp.css'
 import { Link ,useNavigate} from 'react-router-dom';
 import Login from './Login';
 
+
 const SignUp = () => {
     const[name ,setname]=useState("");
     const[email ,setemail]=useState("");
@@ -74,6 +75,7 @@ try {
 
   <p className="btnlink">Have already an account? <a href="#!"
                    ><u>  <Link   to={'/Login'}>Login here</Link></u></a></p>
+                   
   </div>
 
 

@@ -1,0 +1,23 @@
+
+.mainupload{
+    padding-left: 60%;
+    padding-top: 2%;
+}
+.uploadimg{
+padding: 10px;
+    background-color: rgb(217, 239, 174);
+    height: 100%;
+    width: 50%;
+}
+.btnupload{
+    padding: 10px;
+    border: none;
+    background-color: rgb(144, 202, 113);
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}

@@ -4,6 +4,8 @@ import {  NavLink } from 'react-router-dom'
 import Searchbtn from '../components/Searchbtn';
 import MyComponent from '../Localtranslation/MyComponent';
 import Theme from './Theme';
+import Logout from '../SpringBackend/Logout';
+
 
 const Main = () => {
 
@@ -28,6 +30,7 @@ const Main = () => {
     <Searchbtn/>
     <Theme/>
     <MyComponent/>
+   <Logout/>
     
     </div>  </div>
   )

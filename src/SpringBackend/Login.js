@@ -1,20 +1,26 @@
 import React, { useState } from 'react';
-import './Backendcss/Login.css'
-import axios from 'axios'
-import {  Link ,useNavigate } from 'react-router-dom';
+import './Backendcss/Login.css';
+import axios from 'axios';
+import { Link, useNavigate } from 'react-router-dom';
 
 const Login = () => {
   const [email, setLogInEmail] = useState('');
   const [password, setLogInPass] = useState('');
-  const[forgotpass ,setForgotpass]=useState('');
+  const [forgotpass, setForgotpass] = useState('');
   const [error, setError] = useState('');
   const navigate = useNavigate();
 
   const handleForgotPassword = (e) => {
     setForgotpass(e.target.value);
   };
+
   const handleLogin = async (e) => {
     e.preventDefault();
+    if (email.trim() === '' || password.trim() === '') {
+      setError('Please fill in both email and password');
+      return;
+    }
+
     try {
       const response = await axios.post('http://localhost:8080/name/login', {
         email,
@@ -50,7 +56,6 @@ const Login = () => {
             value={password}
             onChange={(e) => setLogInPass(e.target.value)}
           />
-        
 
           <label>
             <input className="" type="checkbox" value="" />
@@ -60,16 +65,27 @@ const Login = () => {
             </a>
           </label>
 
-          <button type="submit" className="btnsignup" onClick={handleLogin}>
+          <button
+            type="submit"
+            className="btnsignup"
+            onClick={handleLogin}
+            disabled={email.trim() === '' || password.trim() === ''}
+          >
             Login
           </button>
-      
-          <label style={{paddingLeft:"180px"}}>  
-         <button 
-          onClick={handleForgotPassword}>Forgot password</button>
-   <p className="btnlink">Have already forword <a href="#!"
-                   ><u>  <Link   to={'/ResetPasswordForm'}>Login here</Link></u></a></p>
-        </label>
+
+          <label style={{ paddingLeft: '180px' }}>
+            <button onClick={handleForgotPassword}>Forgot password</button>
+            <p className="btnlink">
+              Have already forword{' '}
+              <a href="#!">
+                <u>
+                  {' '}
+                  <Link to={'/ResetPasswordForm'}>Login here</Link>
+                </u>
+              </a>
+            </p>
+          </label>
 
           <div style={{ color: 'red' }}>{error && <p>{error}</p>}</div>
         </div>
