@@ -1,14 +1,18 @@
 import React, { useState } from 'react';
 import './Backendcss/Login.css'
 import axios from 'axios'
-import {  useNavigate } from 'react-router-dom';
+import {  Link ,useNavigate } from 'react-router-dom';
 
 const Login = () => {
   const [email, setLogInEmail] = useState('');
   const [password, setLogInPass] = useState('');
+  const[forgotpass ,setForgotpass]=useState('');
   const [error, setError] = useState('');
   const navigate = useNavigate();
 
+  const handleForgotPassword = (e) => {
+    setForgotpass(e.target.value);
+  };
   const handleLogin = async (e) => {
     e.preventDefault();
     try {
@@ -46,6 +50,7 @@ const Login = () => {
             value={password}
             onChange={(e) => setLogInPass(e.target.value)}
           />
+        
 
           <label>
             <input className="" type="checkbox" value="" />
@@ -58,6 +63,13 @@ const Login = () => {
           <button type="submit" className="btnsignup" onClick={handleLogin}>
             Login
           </button>
+      
+          <label style={{paddingLeft:"180px"}}>  
+         <button 
+          onClick={handleForgotPassword}>Forgot password</button>
+   <p className="btnlink">Have already forword <a href="#!"
+                   ><u>  <Link   to={'/ResetPasswordForm'}>Login here</Link></u></a></p>
+        </label>
 
           <div style={{ color: 'red' }}>{error && <p>{error}</p>}</div>
         </div>

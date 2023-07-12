@@ -31,6 +31,7 @@ import './css/Theme.css';
 import TopTemple from './Temples/TopTemple';
 import Login from './SpringBackend/Login';
 import SignUp from './SpringBackend/SignUp';
+import ResetPasswordForm from './SpringBackend/ResetPasswordForm';
 
 function App() {
 
@@ -46,6 +47,7 @@ function App() {
             <Route  path="/Home" element={<Home />}/>
             <Route  path='/Login' element={<Login/>}/>
             <Route path='/SignUp' element={<SignUp/>}/>
+            <Route path='/ResetPasswordForm' element={<ResetPasswordForm/>}/>
 
             </Route>
           <Route path="/Temple" element={<Temple/>}/>
