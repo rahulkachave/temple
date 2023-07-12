@@ -21,6 +21,9 @@ function ResetPasswordForm() {
         })
         
       });
+      if(email ==null){
+        alert("please enter email")
+      }
       navigate('/ResetPasswordForm');
       if (response.ok) {
         setResetStatus('Password reset successfully');
