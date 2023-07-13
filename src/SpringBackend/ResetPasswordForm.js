@@ -19,8 +19,9 @@ function ResetPasswordForm() {
           email,
           password
         })
-        
+            
       });
+      console.log(response.data);    
       if(email ==null){
         alert("please enter email")
       }

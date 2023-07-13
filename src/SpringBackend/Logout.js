@@ -3,7 +3,8 @@ import axios from 'axios';
 
 const Logout = () => {
   const [error, setError] = useState('');
-  
+
+
   const handleLogout = async () => {
 
     try {
@@ -24,9 +25,10 @@ const Logout = () => {
     <div>
     
   
-      <button type="submit" className="btnlogout" onClick={handleLogout}>
+      <button type="submit" className="btnlogout" onClick={()=>handleLogout()}>
         Logout
       </button>
+     
       {error && <p>{error}</p>}
     </div>
   );
