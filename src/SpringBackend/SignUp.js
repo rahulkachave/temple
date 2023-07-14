@@ -3,12 +3,14 @@ import axios from 'axios'
 import './Backendcss/SignUp.css'
 import { Link ,useNavigate} from 'react-router-dom';
 import Login from './Login';
+import { toast } from 'react-toastify';
 
 
 const SignUp = () => {
     const[name ,setname]=useState("");
     const[email ,setemail]=useState("");
     const[password,setpassword]=useState('');
+    const[repassword , Resetpassword]=useState('');
     const [ error ,seterror]=useState('');
     const navigate = useNavigate();
  
@@ -17,38 +19,37 @@ const SignUp = () => {
      
 e.preventDefault();
 
-if (!name & name<10) {
-    seterror("please enter user name");
-
+if (!name & name<10 || !email || !password ||!repassword ) {
+  toast.error("please enter valid data");
+    return;
+  }
+  if (password !== repassword) {
+    toast.error("Passwords do not match. Please enter the same password.");
     return;
   }
 
-  if (!email  ) {
-    seterror("please enter email");
-    return;
-  }
-//   else {
+  
+//   if {
 //   const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 //   if (!emailPattern.test(email)) {
 //     seterror("Please enter a valid email");
 //   } 
 // }
-  if (!password) {
-    alert("Please enter a password");
-    return;
-  }
+ 
 try {
     const response = await axios.post("http://localhost:8080/name/save",{ 
        name ,
        email,
-       password});
+       password,
+      repassword});
       
     console.log(response.data);
-    alert("sign up in succesfull")
+    
+    toast.success("Sign Up Successfully COmpleted")
     navigate('/login');
 
 } catch (error) {
-    seterror("please try again");
+  toast.success("Please try again")
 }
 
 
@@ -70,7 +71,8 @@ try {
 
 <label>Password</label>
   <input className='Inputsi' type='password' placeholder='password' value={password} onChange={(e)=>setpassword(e.target.value)}/>
-
+  <label>Re-Password</label>
+  <input className='Inputsi' type='password' placeholder='Re-password' value={repassword} onChange={(e)=>Resetpassword(e.target.value)}/>
   <div><button  className='btnsignup' type='submit' onClick={handleSubmit}>SignUp</button></div> 
 
   <p className="btnlink">Have already an account? <a href="#!"

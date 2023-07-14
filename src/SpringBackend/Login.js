@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './Backendcss/Login.css';
 import axios from 'axios';
 import { Link, useNavigate } from 'react-router-dom';
+import { toast } from 'react-toastify';
 
 const Login = () => {
   const [email, setLogInEmail] = useState('');
@@ -16,21 +17,40 @@ const Login = () => {
 
   const handleLogin = async (e) => {
     e.preventDefault();
+
     if (email.trim() === '' || password.trim() === '') {
       setError('Please fill in both email and password');
       return;
     }
+    
+    if(!email){
+      toast.error("Please enter valid Email")
+      return;
+    }
+    if(!password){
+      toast.error("Please enter valid password")
+      return;
+    }
+    if (email !== password ) {
+      toast.error("Passwords do not match. Please enter the correct password.");
+      return;
+    }
+    
 
     try {
       const response = await axios.post('http://localhost:8080/name/login', {
         email,
         password,
       });
-      console.log(response.data);
-      alert('Logged in successfully');
-      navigate('/Home');
+     setLogInEmail("");
+      if (response.data) {
+        console.log(response.data);
+        navigate('/Home');
+      } else {
+        setError('Please check your email and password');
+      }
     } catch (error) {
-      setError('Please check your email and password');
+      setError('please check  login');
     }
   };
 
@@ -80,7 +100,6 @@ const Login = () => {
               Have already forword{' '}
               <a href="#!">
                 <u>
-                  {' '}
                   <Link to={'/ResetPasswordForm'}>Login here</Link>
                 </u>
               </a>

@@ -4,7 +4,7 @@ import Gods from './components/Gods';
 import Details from './components/Details';
 import Home from './components/Home';
 import Footer from './components/Footer'; //this is for a components file export import
-
+import 'react-toastify/dist/ReactToastify.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Vishanu from './Godsfolder/Vishanu';
 import Error from './components/Error';
@@ -32,6 +32,7 @@ import TopTemple from './Temples/TopTemple';
 import Login from './SpringBackend/Login';
 import SignUp from './SpringBackend/SignUp';
 import ResetPasswordForm from './SpringBackend/ResetPasswordForm';
+import { ToastContainer } from 'react-toastify';
 
 function App() {
 
@@ -40,6 +41,7 @@ function App() {
     <div>
     
     <Router>
+      <ToastContainer position='bottom-right'/>
     <Main/>
 
            <Routes>
